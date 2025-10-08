@@ -9,18 +9,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
     <link rel="stylesheet" href="src/css/galeria.css">
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="logo">
-                <h2><a href="index.html">Alessandra</a></h2>
+                <h2>Logo</h2>
             </div>
             <nav class="nav">
-                <a href="index.html" class="btn-voltar">
-                    <i class="fas fa-arrow-left"></i>
-                    Voltar ao site
-                </a>
+                <button class="nav-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Início</a></li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -93,13 +98,41 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer-simple">
-                <p>&copy; 2025 Alessandra Terapias. Todos os direitos reservados.</p>
-                <a href="index.html" class="link-voltar">Voltar ao site principal</a>
+        <div class="footer-content">
+            <div class="footer-brand">
+            <h3>Logo</h3>
+            <p>Cuidando do seu bem-estar com amor e dedicação</p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="index.html">Sobre</a></li>
+                        <li><a href="index.html">Serviços</a></li>
+                        <li><a href="index.html">Avaliações</a></li>
+                        <li><a href="index.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                    <li><a href="#">Furo de orelha</a></li>
+                    <li><a href="#">TRG</a></li>
+                    <li><a href="#">Auriculoterapia</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
+        
+        <div class="footer-bottom">
+            <a href="https://scripthadder.com.br"><p>&copy; 2025 Desenvolvido pela ScriptHadder. Todos os direitos reservados.</p></a>
+        </div>
+        </div>
     </footer>
-
+    <script src="src/js/script.js"></script>
     <script>
         const filterBtns = document.querySelectorAll('.filtro-btn');
         const galeriaItems = document.querySelectorAll('.galeria-item');

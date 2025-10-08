@@ -16,7 +16,7 @@
   <header class="header">
     <div class="container">
       <div class="logo">
-        <h2>Alessandra</h2>
+        <h2>Logo</h2>
       </div>
       <nav class="nav">
         <button class="nav-toggle" aria-label="Menu">
@@ -195,7 +195,7 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-brand">
-          <h3>Alessandra</h3>
+          <h3>Logo</h3>
           <p>Cuidando do seu bem-estar com amor e dedicação</p>
         </div>
         
@@ -213,9 +213,9 @@
           <div class="footer-col">
             <h4>Serviços</h4>
             <ul>
-              <li><a href="#">Furo de orelha</a></li>
-              <li><a href="#">TRG</a></li>
-              <li><a href="#">Auriculoterapia</a></li>
+              <li><a href="galeria.html">Furo de orelha</a></li>
+              <li><a href="galeria.html">TRG</a></li>
+              <li><a href="galeria.html">Auriculoterapia</a></li>
               <li><a href="galeria.html">Galeria</a></li>
             </ul>
           </div>
@@ -223,36 +223,22 @@
       </div>
       
       <div class="footer-bottom">
-        <p>&copy; 2025 Alessandra Terapias. Todos os direitos reservados.</p>
+        <a href="https://scripthadder.com.br"><p>&copy; 2025 Desenvolvido pela ScriptHadder. Todos os direitos reservados.</p></a>
       </div>
     </div>
   </footer>
 
+  <script src="src/js/script.js"></script>
   <script>
-    const navToggle = document.querySelector('.nav-toggle');
-    const navMenu = document.querySelector('.nav-menu');
-
-    navToggle.addEventListener('click', () => {
-      navMenu.classList.toggle('active');
-      navToggle.classList.toggle('active');
-    });
-
-    document.querySelectorAll('.nav-menu a').forEach(link => {
-      link.addEventListener('click', () => {
-        navMenu.classList.remove('active');
-        navToggle.classList.remove('active');
-      });
-    });
-
     document.querySelectorAll('.estrelas').forEach(container => {
       const rating = parseInt(container.getAttribute('data-rating'), 10) || 0;
       container.innerHTML = '';
       
       for(let i = 1; i <= 5; i++) {
-        const star = document.createElement('span');
-        star.textContent = '★';
-        star.className = i <= rating ? 'star filled' : 'star';
-        container.appendChild(star);
+      const star = document.createElement('span');
+      star.textContent = '★';
+      star.className = i <= rating ? 'star filled' : 'star';
+      container.appendChild(star);
       }
     });
   </script>
