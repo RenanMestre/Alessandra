@@ -1,246 +1,1645 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alessandra - Terapias Holísticas</title>
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alessandra — Terapias Holísticas & Integração do Ser</title>
 
-  <link rel="stylesheet" href="src/css/style.css" />
-</head>
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="logo">
-        <h2>Logo</h2>
-      </div>
-      <nav class="nav">
-        <button class="nav-toggle" aria-label="Menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <ul class="nav-menu">
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#avaliacoes">Avaliações</a></li>
-          <li><a href="#contato">Contato</a></li>
-          <li><a href="galeria.html">Galeria</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero" id="sobre">
-      <div class="container">
-        <div class="hero-content">
-          <div class="hero-text">
-            <h1>Bem-vindo ao meu mundo de <span>cura e bem-estar</span></h1>
-            <p>Sou especialista em terapias holísticas que promovem o equilíbrio entre corpo e mente. Com técnicas humanizadas e personalizadas, oferece cuidado integral para seu bem-estar.</p>
-            <a href="#contato" class="cta-btn">Agende sua consulta</a>
-          </div>
-          <div class="hero-image">
-            <img src="src/img/Profissional.png" alt="Alessandra - Terapeuta"/>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="servicos" id="servicos">
-      <div class="container">
-        <h2>Nossos Serviços</h2>
-        <div class="servicos-grid">
-          <div class="servico-card">
-            <div class="servico-icon">
-              <i class="fas fa-leaf"></i>
-            </div>
-            <h3>Furo de orelha humanizado</h3>
-            <p>Técnica suave e humanizada para furação de orelha, priorizando o conforto e bem-estar durante todo o processo.</p>
-            <button class="btn-servico">Saiba mais</button>
-          </div>
-
-          <div class="servico-card featured">
-            <div class="servico-icon">
-              <i class="fas fa-brain"></i>
-            </div>
-            <h3>TRG Terapia Reprocessamento Generativo</h3>
-            <p>Abordagem terapêutica inovadora para reprocessamento de memórias e experiências traumáticas.</p>
-            <button class="btn-servico">Saiba mais</button>
-          </div>
-
-          <div class="servico-card">
-            <div class="servico-icon">
-              <i class="fas fa-hand-holding-heart"></i>
-            </div>
-            <h3>Auriculoterapia</h3>
-            <p>Técnica milenar que utiliza pontos específicos da orelha para promover equilíbrio e bem-estar.</p>
-            <button class="btn-servico">Saiba mais</button>
-          </div>
-        </div>
-        
-        <div class="servicos-cta">
-          <a href="galeria.html" class="btn-imagens">
-            <i class="fas fa-images"></i>
-            Ver Galeria de Imagens
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="avaliacoes" id="avaliacoes">
-      <div class="container">
-        <h2>O que nossos clientes dizem</h2>
-        <div class="avaliacoes-slider">
-          <div class="avaliacao-card">
-            <div class="estrelas" data-rating="5"></div>
-            <p>"Experiência incrível! O atendimento foi humanizado e me senti muito acolhida durante todo o processo."</p>
-            <div class="cliente">
-              <div class="cliente-avatar">
-                <i class="fas fa-user"></i>
-              </div>
-              <div class="cliente-info">
-                <h4>Maria S.</h4>
-                <span>Furo de orelha</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="avaliacao-card">
-            <div class="estrelas" data-rating="5"></div>
-            <p>"A TRG me ajudou muito a superar traumas antigos. Recomendo de coração!"</p>
-            <div class="cliente">
-              <div class="cliente-avatar">
-                <i class="fas fa-user"></i>
-              </div>
-              <div class="cliente-info">
-                <h4>Ana P.</h4>
-                <span>TRG</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="avaliacao-card">
-            <div class="estrelas" data-rating="4"></div>
-            <p>"Auriculoterapia maravilhosa! Senti os resultados desde a primeira sessão."</p>
-            <div class="cliente">
-              <div class="cliente-avatar">
-                <i class="fas fa-user"></i>
-              </div>
-              <div class="cliente-info">
-                <h4>João L.</h4>
-                <span>Auriculoterapia</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="contato" id="contato">
-      <div class="container">
-        <h2>Entre em contato</h2>
-        <div class="contato-content">
-          <div class="contato-info">
-            <div class="contato-item">
-              <div class="contato-icon">
-                <i class="fab fa-whatsapp"></i>
-              </div>
-              <div>
-                <h4>WhatsApp</h4>
-                <p>(99) 9999-9999</p>
-              </div>
-            </div>
-            
-            <div class="contato-item">
-              <div class="contato-icon">
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div>
-                <h4>E-mail</h4>
-                <p>contato@alessandra.com</p>
-              </div>
-            </div>
-            
-            <div class="contato-item">
-              <div class="contato-icon">
-                <i class="fas fa-clock"></i>
-              </div>
-              <div>
-                <h4>Horário de atendimento</h4>
-                <p>Seg - Sex: 8h às 18h</p>
-              </div>
-            </div>
-          </div>
-          
-          <form class="contato-form" action="#" method="post">
-            <input type="text" name="nome" placeholder="Seu nome" required>
-            <input type="email" name="email" placeholder="Seu e-mail" required>
-            <input type="tel" name="telefone" placeholder="Seu telefone">
-            <textarea name="mensagem" placeholder="Como posso te ajudar?" rows="4" required></textarea>
-            <button type="submit" class="btn-enviar">Enviar mensagem</button>
-          </form>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <h3>Logo</h3>
-          <p>Cuidando do seu bem-estar com amor e dedicação</p>
-        </div>
-        
-        <div class="footer-links">
-          <div class="footer-col">
-            <h4>Navegação</h4>
-            <ul>
-              <li><a href="#sobre">Sobre</a></li>
-              <li><a href="#servicos">Serviços</a></li>
-              <li><a href="#avaliacoes">Avaliações</a></li>
-              <li><a href="#contato">Contato</a></li>
-            </ul>
-          </div>
-          
-          <div class="footer-col">
-            <h4>Serviços</h4>
-            <ul>
-              <li><a href="galeria.html">Furo de orelha</a></li>
-              <li><a href="galeria.html">TRG</a></li>
-              <li><a href="galeria.html">Auriculoterapia</a></li>
-              <li><a href="galeria.html">Galeria</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      
-      <div class="footer-bottom">
-        <a href="https://scripthadder.com.br"><p>&copy; 2025 Desenvolvido pela ScriptHadder. Todos os direitos reservados.</p></a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="src/js/script.js"></script>
-  <script>
-    document.querySelectorAll('.estrelas').forEach(container => {
-      const rating = parseInt(container.getAttribute('data-rating'), 10) || 0;
-      container.innerHTML = '';
-      
-      for(let i = 1; i <= 5; i++) {
-      const star = document.createElement('span');
-      star.textContent = '★';
-      star.className = i <= rating ? 'star filled' : 'star';
-      container.appendChild(star);
+    <link rel="stylesheet" href="src/css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        aurora: {
+                            50: '#FAF8F5',
+                            100: '#F5EFEB',
+                            200: '#EADFD7',
+                            300: '#DCCAC0',
+                            400: '#C7B1A4',
+                            500: '#B09689',
+                            600: '#9B7E70',
+                            700: '#81685C',
+                            800: '#675249',
+                            900: '#4D3E37',
+                        },
+                        emeraldlux: {
+                            100: '#E6ECEB',
+                            500: '#2C4A44',
+                            600: '#233B36',
+                            700: '#1B2E2A',
+                            900: '#0E1715',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'spin-slow': 'spin 12s linear infinite',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+      body {
+          font-family: 'Plus Jakarta Sans', sans-serif;
+          background-color: #FAF8F5;
+          color: #1B2E2A;
+          overflow-x: hidden;
       }
-    });
-  </script>
+      .serif-font {
+          font-family: 'Playfair Display', serif;
+      }
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+          width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+          background: #FAF8F5;
+      }
+      ::-webkit-scrollbar-thumb {
+          background: #C7B1A4;
+          border-radius: 9999px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+          background: #B09689;
+      }
+      /* Aurora mesh backgrounds */
+      .aurora-bg-mesh {
+          background: radial-gradient(circle at 80% 20%, rgba(234, 223, 215, 0.4) 0%, transparent 50%),
+                      radial-gradient(circle at 10% 80%, rgba(44, 74, 68, 0.08) 0%, transparent 50%);
+      }
+      @keyframes float {
+          0%, 100% { transform: translateY(0px) rotate(0deg); }
+          50% { transform: translateY(-12px) rotate(1deg); }
+      }
+      .glass-panel {
+          background: rgba(255, 255, 255, 0.45);
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+          border: 1px solid rgba(255, 255, 255, 0.5);
+      }
+      .glass-panel-dark {
+          background: rgba(44, 74, 68, 0.9);
+          backdrop-filter: blur(16px);
+          -webkit-backdrop-filter: blur(16px);
+          border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+    </style>
+</head>
+<body class="aurora-bg-mesh text-slate-800">
+
+    <!-- Screen Loader -->
+    <div id="loader" class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#1B2E2A] text-white transition-all duration-1000">
+        <div class="relative flex items-center justify-center">
+            <div class="absolute w-24 h-24 border-2 border-aurora-300/30 rounded-full animate-ping"></div>
+            <div class="absolute w-20 h-20 border border-aurora-200/50 rounded-full animate-spin-slow"></div>
+            <span class="serif-font text-3xl font-light tracking-widest text-aurora-100 z-10">ALESSANDRA</span>
+        </div>
+        <div class="mt-6 text-xs tracking-widest text-aurora-300 uppercase animate-pulse-slow">Sintonizando frequências...</div>
+    </div>
+
+    <!-- Floating Audio Ambient Button -->
+    <div class="fixed bottom-6 right-6 z-40">
+        <button id="musicToggleBtn" onclick="toggleAmbientMusic()" class="p-3.5 bg-emeraldlux-500 hover:bg-emeraldlux-600 text-aurora-100 rounded-full shadow-xl transition-all duration-300 hover:scale-110 flex items-center justify-center group relative">
+            <i data-lucide="music" class="w-5 h-5 group-hover:rotate-12 transition-transform"></i>
+            <span class="absolute right-14 bg-emeraldlux-700 text-xs text-aurora-100 px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap shadow">Sons da Natureza</span>
+        </button>
+        <!-- Ambient sound simulation utilizing web audio API or placeholder safely -->
+        <audio id="ambientAudio" loop src="/src/audios/mixkit-morning-birds-2472.wav" class="hidden"></audio>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 w-full z-40 transition-all duration-500 py-5" id="mainHeader">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="glass-panel rounded-2xl px-6 py-4 flex items-center justify-between shadow-sm transition-all duration-300" id="headerInner">
+                <a href="#home" class="flex flex-col">
+                    <span class="serif-font text-xl md:text-2xl font-light tracking-widest text-emeraldlux-500 uppercase">Alessandra</span>
+                    <span class="text-[9px] tracking-widest uppercase text-aurora-600 font-medium">Saúde e Bem Estar</span>
+                </a>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden lg:flex items-center gap-8 text-sm font-medium tracking-wide text-emeraldlux-700">
+                    <a href="#sobre" class="hover:text-emeraldlux-500 transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-emeraldlux-500 hover:after:w-full after:transition-all">Sobre Mim</a>
+                    <a href="#servicos" class="hover:text-emeraldlux-500 transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-emeraldlux-500 hover:after:w-full after:transition-all">Serviços</a>
+                    <a href="#jornada" class="hover:text-emeraldlux-500 transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-emeraldlux-500 hover:after:w-full after:transition-all">Seu Reprocessamento</a>
+                    <a href="#espaco" class="hover:text-emeraldlux-500 transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-emeraldlux-500 hover:after:w-full after:transition-all">Feedbacks</a>
+                    <a href="#psicologia&trg" class="hover:text-emeraldlux-500 transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-emeraldlux-500 hover:after:w-full after:transition-all">Psicologia & Terapia</a>
+                </nav>
+
+                <div class="hidden lg:flex items-center gap-4">
+                    <a href="#agendamento" class="px-6 py-2.5 rounded-xl bg-emeraldlux-500 hover:bg-emeraldlux-600 text-white font-medium text-xs tracking-widest uppercase transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5">
+                        Agendar Sessão
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <button onclick="toggleMobileMenu()" class="lg:hidden p-2 text-emeraldlux-700 hover:text-emeraldlux-500 focus:outline-none">
+                    <i data-lucide="menu" class="w-6 h-6" id="menuIcon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Nav Menu -->
+        <div id="mobileMenu" class="hidden fixed inset-x-0 top-24 mx-6 p-6 rounded-2xl glass-panel shadow-xl flex flex-col gap-4 text-center z-50">
+            <a href="#sobre" onclick="toggleMobileMenu()" class="text-emeraldlux-700 font-medium py-2 border-b border-aurora-200">Sobre Mim</a>
+            <a href="#servicos" onclick="toggleMobileMenu()" class="text-emeraldlux-700 font-medium py-2 border-b border-aurora-200">Serviços</a>
+            <a href="#jornada" onclick="toggleMobileMenu()" class="text-emeraldlux-700 font-medium py-2 border-b border-aurora-200">Seu Reprocessamento</a>
+            <a href="#espaco" onclick="toggleMobileMenu()" class="text-emeraldlux-700 font-medium py-2 border-b border-aurora-200">Feedbacks</a>
+            <a href="#oraculo" onclick="toggleMobileMenu()" class="text-emeraldlux-700 font-medium py-2 border-b border-aurora-200">Oráculo Diário</a>
+            <a href="#agendamento" onclick="toggleMobileMenu()" class="mt-4 px-6 py-3 rounded-xl bg-emeraldlux-500 text-white font-medium text-sm tracking-widest uppercase transition-all">
+                Agendar Sessão
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Wrapper -->
+    <main class="w-full">
+
+        <!-- HERO SECTION (Cinematographic) -->
+        <section id="home" class="relative min-h-screen flex items-center justify-center pt-32 pb-20 px-6 md:px-12 overflow-hidden">
+            <!-- Animated background elements -->
+            <div class="absolute inset-0 z-0">
+                <div class="absolute top-[20%] left-[10%] w-[35rem] h-[35rem] rounded-full bg-aurora-200/40 mix-blend-multiply filter blur-3xl opacity-60 animate-pulse-slow"></div>
+                <div class="absolute bottom-[10%] right-[5%] w-[40rem] h-[40rem] rounded-full bg-emeraldlux-500/5 mix-blend-multiply filter blur-3xl opacity-70 animate-float"></div>
+            </div>
+
+            <div class="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+                <!-- Left Content -->
+                <div class="lg:col-span-7 flex flex-col gap-6 text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glass-panel border border-aurora-300 w-fit">
+                        <span class="w-2 h-2 rounded-full bg-emeraldlux-500 animate-ping"></span>
+                        <span class="text-xs font-semibold tracking-widest text-emeraldlux-500 uppercase">Reconectando a minha essência</span>
+                    </div>
+
+                    <h1 class="serif-font text-4xl md:text-6xl lg:text-7xl font-light text-emeraldlux-500 leading-tight">
+                        Cuide de você. <br>
+                        <span class="italic font-normal text-aurora-600">Reencontre</span> sua essência.
+                    </h1>
+
+                    <p class="text-emeraldlux-700 text-lg md:text-xl font-light leading-relaxed max-w-xl">
+                        Uma jornada transformadora rumo a seu encontro interior.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mt-4">
+                        <a href="#agendamento" class="px-8 py-4 bg-emeraldlux-500 hover:bg-emeraldlux-600 text-white rounded-xl text-center font-semibold text-sm tracking-widest uppercase transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 flex items-center justify-center gap-2">
+                            <span>Começar Transformação</span>
+                            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                        <a href="#servicos" class="px-8 py-4 glass-panel hover:bg-white text-emeraldlux-700 text-center rounded-xl font-semibold text-sm tracking-widest uppercase transition-all border border-aurora-300 flex items-center justify-center gap-2">
+                            <span>Conhecer Terapias</span>
+                        </a>
+                    </div>
+
+                    <!-- Micro Social Validation -->
+                    <div class="flex items-center gap-6 mt-8 pt-8 border-t border-aurora-200/50">
+                        <div class="flex -space-x-3">
+                            <span class="w-10 h-10 rounded-full border-2 border-white bg-aurora-300 flex items-center justify-center text-xs font-bold text-white">M</span>
+                            <span class="w-10 h-10 rounded-full border-2 border-white bg-emeraldlux-500 flex items-center justify-center text-xs font-bold text-white">R</span>
+                            <span class="w-10 h-10 rounded-full border-2 border-white bg-aurora-600 flex items-center justify-center text-xs font-bold text-white">A</span>
+                        </div>
+                        <div>
+                            <p class="text-xs text-emeraldlux-600 font-semibold tracking-wider uppercase">Ambiente Altamente Acolhedor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Visual / Portrait -->
+                <div class="lg:col-span-5 relative flex justify-center items-center">
+                    <div class="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-8 border-white/60 shadow-2xl animate-float">
+                        <!-- Simulated Premium Therapy Portrait Art -->
+                        <div class="absolute inset-0 bg-gradient-to-tr from-emeraldlux-600 via-emeraldlux-500 to-aurora-300 flex items-center justify-center">
+                            <!-- Artistic SVG Representing holistic flow / Sacred geometry -->
+                            <svg class="w-3/4 h-3/4 text-white/25 animate-spin-slow" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="50" cy="50" r="40" />
+                                <circle cx="50" cy="50" r="30" />
+                                <path d="M50 0 V100 M0 50 H100 M15 15 L85 85 M15 85 L85 15" stroke-dasharray="2 2" />
+                                <polygon points="50,15 85,50 50,85 15,50" />
+                            </svg>
+                            <!-- Elegant overlay illustration profile representation -->
+                            <div class="absolute text-center text-white px-6">
+                                <span class="serif-font text-4xl md:text-5xl block font-light tracking-wider mb-2">Alessandra</span>
+                                <span class="text-xs uppercase tracking-widest text-aurora-200">Terapeuta Emocional</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ambient details -->
+                    <div class="absolute -top-4 -right-4 bg-white/80 backdrop-blur px-5 py-3.5 rounded-2xl shadow-lg border border-aurora-200 flex items-center gap-3">
+                        <div class="p-2 bg-emeraldlux-100 text-emeraldlux-500 rounded-lg">
+                            <i data-lucide="sparkles" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-bold text-emeraldlux-900">Energia Fluida</h4>
+                            <p class="text-[10px] text-slate-500">Equilíbrio Ativo</p>
+                        </div>
+                    </div>
+
+                    <div class="absolute -bottom-6 -left-4 bg-emeraldlux-900/90 text-white backdrop-blur px-5 py-3.5 rounded-2xl shadow-lg border border-white/10 flex items-center gap-3">
+                        <div class="p-2 bg-emeraldlux-700 text-aurora-200 rounded-lg">
+                            <i data-lucide="shield-check" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-bold text-aurora-100">Presença Segura</h4>
+                            <p class="text-[10px] text-aurora-300">Espaço Ético</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Down Arrow Indicator -->
+            <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5 opacity-70 animate-bounce">
+                <span class="text-[10px] tracking-widest uppercase font-semibold text-emeraldlux-500">Desvendar Espaço</span>
+                <i data-lucide="chevron-down" class="w-4 h-4 text-emeraldlux-500"></i>
+            </div>
+        </section>
+
+        <!-- BIOGRAPHY SECTION -->
+        <section id="sobre" class="py-10 px-6 md:px-12 bg-[#F3EFE9]">
+            <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+                <!-- Left side: Collage / Decorative Visuals -->
+                <div class="lg:col-span-5 grid grid-cols-2 gap-4 relative">
+                    <div class="absolute -inset-4 bg-aurora-300/10 rounded-3xl -z-10 filter blur-xl"></div>
+                    <div class="space-y-4">
+                        <div class="bg-gradient-to-b from-aurora-300 to-aurora-400 h-64 rounded-2xl shadow-md overflow-hidden flex items-end p-4 relative">
+                            <img src="src/img/Alessandra foto.jpg" alt="Nature Leaves Background" class="absolute inset-0 w-full h-full object-cover opacity-80">
+                            <!-- Background pattern of leaves/nature -->
+                            <div class="absolute inset-0 bg-black/10"></div>
+                        </div>
+                        <div class="bg-emeraldlux-600 h-44 rounded-2xl shadow-md flex flex-col justify-between p-6 text-white">
+                            <i data-lucide="heart" class="w-6 h-6 text-aurora-200"></i>
+                            <div>
+                                <h4 class="serif-font text-lg font-light">Objetivo</h4>
+                                <p class="text-xs text-aurora-200 font-light mt-1">Ajudar as pessoas a alcançar equilíbrio e bem-estar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-4 pt-8">
+                        <div class="bg-emeraldlux-900 h-40 rounded-2xl shadow-md flex flex-col justify-between p-6 text-white">
+                            <i data-lucide="star" class="w-6 h-6 text-aurora-200"></i>
+                            <div>
+                                <p class="text-xs text-aurora-300 uppercase tracking-widest">Experiência</p>
+                                <h3 class="serif-font text-2xl font-light mt-1">10+ Anos</h3>
+                            </div>
+                        </div>
+                        <div class="bg-gradient-to-t from-aurora-400 to-aurora-200 h-64 rounded-2xl shadow-md overflow-hidden flex items-start p-4 relative">
+                            <span class="text-xs uppercase font-bold tracking-widest text-emeraldlux-900 relative z-10">Enfermagem, saúde e bem estar</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right side: Bio Editorial -->
+                <div class="lg:col-span-7 flex flex-col gap-6">
+                    <span class="text-xs font-bold tracking-widest text-aurora-600 uppercase">Sobre Mim</span>
+                    <h2 class="serif-font text-3xl md:text-5xl text-emeraldlux-500 font-light leading-tight">
+                        Olá, sou a Alessandra. <br>
+                        <span class="italic font-normal text-aurora-700">Sua solução</span> na busca pelo equilibrio mental.
+                    </h2>
+                    <p class="text-emeraldlux-700 font-light leading-relaxed text-base md:text-lg">
+                        Desde sempre gostei de ajudar e cuidar de pessoas. Comecei como auxiliar de enfermagem, e diante disso fui subindo e me especializando em diversas áreas, e uma delas que me atraiu foi a parte psicológica.
+                    </p>
+                    <p class="text-emeraldlux-700 font-light leading-relaxed text-base">
+                        Através da integração de técnicas renomadas como a <strong class="font-medium text-emeraldlux-900">Auriculoterapia e a Terapia Holística</strong>, ofereço uma oportunidade de reconectar-se com sua essência, esquecendo traumas e medos do passado e lutando para um futuro de sucesso.
+                    </p>
+
+                    <!-- Credentials list -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 pt-6 border-t border-aurora-300/40">
+                        <div class="flex gap-3">
+                            <div class="w-5 h-5 mt-0.5 rounded-full bg-emeraldlux-500 flex items-center justify-center text-white">
+                                <i data-lucide="check" class="w-3 h-3"></i>
+                            </div>
+                            <span class="text-sm text-emeraldlux-900 font-medium">Formação em Enfermagem</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <div class="w-5 h-5 mt-0.5 rounded-full bg-emeraldlux-500 flex items-center justify-center text-white">
+                                <i data-lucide="check" class="w-3 h-3"></i>
+                            </div>
+                            <span class="text-sm text-emeraldlux-900 font-medium">Doutorada em Terapia Holística</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <div class="w-5 h-5 mt-0.5 rounded-full bg-emeraldlux-500 flex items-center justify-center text-white">
+                                <i data-lucide="check" class="w-3 h-3"></i>
+                            </div>
+                            <span class="text-sm text-emeraldlux-900 font-medium">Formação em Auriculoterapia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- THE THERAPIES / SERVICES -->
+        <section id="servicos" class="py-24 px-6 md:px-12 bg-white">
+            <div class="max-w-6xl mx-auto">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+                    <div class="max-w-xl flex flex-col gap-3">
+                        <span class="text-xs font-bold tracking-widest text-emeraldlux-500 uppercase">Tecnologias de Luz</span>
+                        <h2 class="serif-font text-3xl md:text-5xl font-light text-emeraldlux-600 leading-tight">
+                            Os serviços <br><span class="italic font-normal text-aurora-600">Prestados</span>
+                        </h2>
+                    </div>
+                    <p class="text-slate-500 font-light mt-4 md:mt-0 max-w-sm">
+                        Serviços focados em reprocessamento emocional, autoconhecimento e equilíbrio utilizando técnicas de Auriculoterapia e Terapia Holística.
+                    </p>
+                </div>
+
+                <!-- Interactive Filters -->
+                <div class="flex flex-wrap gap-3 mb-10 pb-4 border-b border-aurora-200">
+                    <button onclick="filterTherapies('all')" class="therapy-filter-btn px-5 py-2.5 rounded-full text-xs tracking-widest uppercase font-semibold transition-all duration-300 bg-emeraldlux-500 text-white shadow-sm" id="btn-all">Todas</button>
+                    <button onclick="filterTherapies('auriculoterapia')" class="therapy-filter-btn px-5 py-2.5 rounded-full text-xs tracking-widest uppercase font-semibold transition-all duration-300 bg-aurora-50 hover:bg-aurora-100 text-emeraldlux-700" id="btn-cura">Auriculoterapia</button>
+                    <button onclick="filterTherapies('autoconhecimento')" class="therapy-filter-btn px-5 py-2.5 rounded-full text-xs tracking-widest uppercase font-semibold transition-all duration-300 bg-aurora-50 hover:bg-aurora-100 text-emeraldlux-700" id="btn-autoconhecimento">Autoconhecimento</button>
+                    <button onclick="filterTherapies('furo-de-orelha-humanizado')" class="therapy-filter-btn px-5 py-2.5 rounded-full text-xs tracking-widest uppercase font-semibold transition-all duration-300 bg-aurora-50 hover:bg-aurora-100 text-emeraldlux-700" id="btn-sistemico">Furo de orelha humanizado</button>
+                </div>
+
+                <!-- Grid of Therapy Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="therapiesGrid">
+                    
+                    <!-- Card 1 -->
+                    <div class="therapy-card bg-[#FAF8F5] rounded-2xl p-8 border border-aurora-200 hover:border-emeraldlux-500/30 transition-all duration-500 hover:-translate-y-2 group shadow-sm hover:shadow-xl flex flex-col justify-between" data-category="auriculoterapia">
+                        <div>
+                            <div class="flex items-center justify-between mb-8">
+                                <div class="w-14 h-14 rounded-2xl bg-emeraldlux-500/5 group-hover:bg-emeraldlux-500 text-emeraldlux-600 group-hover:text-white flex items-center justify-center transition-all duration-500">
+                                    <i data-lucide="infinity" class="w-7 h-7"></i>
+                                </div>
+                                <span class="text-[10px] tracking-widest uppercase font-bold text-aurora-500 bg-aurora-100 px-3 py-1 rounded-full">Duração: 1h</span>
+                            </div>
+                            <h3 class="serif-font text-2xl font-light text-emeraldlux-900 mb-3 group-hover:text-emeraldlux-500 transition-colors">Auriculoterapia</h3>
+                            <p class="text-sm text-slate-600 font-light leading-relaxed mb-6">
+                                Você sabia que a orelha é um microcosmo do corpo? A auriculoterapia é uma técnica milenar que utiliza pontos específicos na orelha para tratar desequilíbrios físicos, emocionais e energéticos. Ideal para alívio de dores, ansiedade e promoção do bem-estar geral.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="border-t border-aurora-200/50 pt-4 mt-6 flex items-center justify-between">
+                                <span class="text-xs font-semibold uppercase tracking-wider text-emeraldlux-900">Presencial (Região de Ribeirão Preto)</span>
+                                <button onclick="selectTherapy('Auriculoterapia')" class="text-emeraldlux-500 hover:text-emeraldlux-600 flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider transition-all">
+                                    <span>Agendar</span>
+                                    <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="therapy-card bg-[#FAF8F5] rounded-2xl p-8 border border-aurora-200 hover:border-emeraldlux-500/30 transition-all duration-500 hover:-translate-y-2 group shadow-sm hover:shadow-xl flex flex-col justify-between" data-category="autoconhecimento">
+                        <div>
+                            <div class="flex items-center justify-between mb-8">
+                                <div class="w-14 h-14 rounded-2xl bg-emeraldlux-500/5 group-hover:bg-emeraldlux-500 text-emeraldlux-600 group-hover:text-white flex items-center justify-center transition-all duration-500">
+                                    <i data-lucide="users" class="w-7 h-7"></i>
+                                </div>
+                                <span class="text-[10px] tracking-widest uppercase font-bold text-aurora-500 bg-aurora-100 px-3 py-1 rounded-full">Duração: 1h</span>
+                            </div>
+                            <h3 class="serif-font text-2xl font-light text-emeraldlux-900 mb-3 group-hover:text-emeraldlux-500 transition-colors">Terapia de Reprocessamento</h3>
+                            <p class="text-sm text-slate-600 font-light leading-relaxed mb-6">
+                                Todos temos traumas e medos desenvolvidos por nós mesmos e as pessoas, a terapia de reprocessamento é uma abordagem que visa identificar e transformar padrões de pensamento limitantes, promovendo uma mudança positiva na forma como percebemos a nós mesmos e ao mundo ao nosso redor.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="border-t border-aurora-200/50 pt-4 mt-6 flex items-center justify-between">
+                                <span class="text-xs font-semibold uppercase tracking-wider text-emeraldlux-900">Presencial (Região de Ribeirão Preto) e Online</span>
+                                <button onclick="selectTherapy('Terapia de Reprocessamento')" class="text-emeraldlux-500 hover:text-emeraldlux-600 flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider transition-all">
+                                    <span>Agendar</span>
+                                    <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="therapy-card bg-[#FAF8F5] rounded-2xl p-8 border border-aurora-200 hover:border-emeraldlux-500/30 transition-all duration-500 hover:-translate-y-2 group shadow-sm hover:shadow-xl flex flex-col justify-between" data-category="furo-de-orelha-humanizado">
+                        <div>
+                            <div class="flex items-center justify-between mb-8">
+                                <div class="w-14 h-14 rounded-2xl bg-emeraldlux-500/5 group-hover:bg-emeraldlux-500 text-emeraldlux-600 group-hover:text-white flex items-center justify-center transition-all duration-500">
+                                    <i data-lucide="syringe" class="w-7 h-7"></i>
+                                </div>
+                                <span class="text-[10px] tracking-widest uppercase font-bold text-aurora-500 bg-aurora-100 px-3 py-1 rounded-full">Duração: 1h</span>
+                            </div>
+                            <h3 class="serif-font text-2xl font-light text-emeraldlux-900 mb-3 group-hover:text-emeraldlux-500 transition-colors">Furo de orelha humanizado</h3>
+                            <p class="text-sm text-slate-600 font-light leading-relaxed mb-6">
+                                O furo de orelha humanizado é uma técnica que utiliza materiais hipoalergênicos e um processo cuidadoso para perfurar a orelha, minimizando o risco de infecções e promovendo uma cicatrização mais rápida e saudável. Ideal para quem busca uma experiência mais segura e confortável.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="border-t border-aurora-200/50 pt-4 mt-6 flex items-center justify-between">
+                                <span class="text-xs font-semibold uppercase tracking-wider text-emeraldlux-900">Presencial (Região de Ribeirão Preto)</span>
+                                <button onclick="selectTherapy('Furo de orelha humanizado')" class="text-emeraldlux-500 hover:text-emeraldlux-600 flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider transition-all">
+                                    <span>Agendar</span>
+                                    <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="psicologia&trg" class="comparison-section">
+          <div class="max-w-7xl mx-auto px-6">
+              <div class="section-header">
+                  <span class="section-tag">
+                      Entenda a Diferença
+                  </span>
+                  <h2>
+                      Psicologia x Terapia de Reprocessamento Generativo (TRG)
+                  </h2>
+                  <p>
+                      Ambas buscam promover saúde emocional e qualidade de vida, mas possuem abordagens diferentes para lidar com traumas, emoções e comportamentos.
+                  </p>
+              </div>
+              <div class="grid lg:grid-cols-[1fr_auto_1fr] gap-8 items-center mt-16">
+
+                <!-- Psicologia -->
+                <div class="bg-white rounded-3xl shadow-lg p-8 border-t-4 border-blue-400">
+                    <div class="w-16 h-16 rounded-2xl bg-blue-50 flex items-center justify-center mb-6">
+                        <i class="fas fa-comments text-blue-500 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-6">
+                        Psicologia
+                    </h3>
+                    <ul class="space-y-4 text-gray-600">
+                        <li>Explora emoções, pensamentos e comportamentos.</li>
+                        <li>Busca compreender a origem dos conflitos emocionais.</li>
+                        <li>Processo geralmente contínuo e reflexivo.</li>
+                        <li>Auxilia no autoconhecimento e desenvolvimento pessoal.</li>
+                        <li>Utiliza diferentes abordagens terapêuticas.</li>
+                    </ul>
+                </div>
+
+                <!-- VS -->
+                <div class="flex justify-center">
+                    <div
+                        class="w-24 h-24 rounded-full bg-gradient-to-r from-rose-400 to-amber-400 text-white flex items-center justify-center text-xl font-bold shadow-xl">
+                        VS
+                    </div>
+                </div>
+
+                <!-- TRG -->
+                <div class="bg-white rounded-3xl shadow-lg p-8 border-t-4 border-rose-400">
+
+                    <div class="w-16 h-16 rounded-2xl bg-rose-50 flex items-center justify-center mb-6">
+                        <i class="fas fa-brain text-rose-500 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-6">
+                        Terapia de Reprocessamento Generativo (TRG)
+                    </h3>
+                    <ul class="space-y-4 text-gray-600">
+                        <li>Foco direto no reprocessamento emocional.</li>
+                        <li>Busca reduzir impactos de traumas e memórias negativas.</li>
+                        <li>Atuação orientada para desbloqueios emocionais.</li>
+                        <li>Trabalha padrões emocionais inconscientes.</li>
+                        <li>Promove respostas emocionais mais saudáveis.</li>
+                    </ul>
+                </div>
+            </div>
+
+              <div class="comparison-note">
+                  <i class="fas fa-heart"></i>
+                  <p>
+                      Psicologia e TRG não são concorrentes. Ambas podem contribuir para o bem-estar emocional e, em muitos casos, podem ser complementares conforme a necessidade de cada pessoa.
+                  </p>
+              </div>
+            </div>
+        </section>
+
+        <!-- AURICULOTHERAPY 3D/HOLOGRAPHIC EXPERIENCE -->
+        <section id="auriculoterapia" class="py-24 px-6 md:px-12 bg-emeraldlux-950 relative overflow-hidden min-h-[120vh] flex flex-col justify-center">
+            <!-- Ambient Particles & Background -->
+            <div class="absolute inset-0 z-0">
+                <div class="absolute top-[20%] left-[20%] w-[40rem] h-[40rem] rounded-full bg-emeraldlux-600/20 filter blur-[100px] animate-pulse-slow"></div>
+                <div class="absolute bottom-[10%] right-[10%] w-[30rem] h-[30rem] rounded-full bg-aurora-500/10 filter blur-[80px] animate-float"></div>
+                <div id="particleCanvas" class="absolute inset-0 opacity-50"></div>
+            </div>
+
+            <div class="max-w-7xl mx-auto w-full relative z-10 flex flex-col items-center">
+                
+                <!-- Cinematic Header -->
+                <div class="text-center max-w-3xl mx-auto mb-16 flex flex-col gap-4 opacity-0 transform translate-y-8 transition-all duration-1000" id="auriHeader">
+                    <span class="text-[10px] md:text-xs font-bold tracking-widest text-aurora-300 uppercase flex items-center justify-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-aurora-400 animate-ping"></span>
+                        O Microcosmo Sagrado
+                    </span>
+                    <h2 class="serif-font text-4xl md:text-6xl lg:text-7xl font-light text-white leading-tight drop-shadow-[0_4px_20px_rgba(0,0,0,.6)]">
+                        O mapa do corpo humano <br><span class="italic text-[#E7CDBF]">dentro da orelha</span>
+                    </h2>
+                    <p class="text-black/90 font-light text-sm md:text-base leading-relaxed mt-2">
+                        Passe o mouse ou toque nas regiões luminosas para descobrir como a Auriculoterapia mapeia e trata desequilíbrios físicos e emocionais através de pontos reflexos.
+                    </p>
+                </div>
+
+                <!-- Interactive Visualization Canvas -->
+                <div class="w-full relative h-[600px] md:h-[700px] flex flex-col md:flex-row items-center justify-between" id="auriContainer">
+                    
+                    <!-- SVG Overlay for Dynamic Connection Lines -->
+                    <svg class="absolute inset-0 w-full h-full pointer-events-none z-20" id="connectionLinesOverlay">
+                        <defs>
+                            <linearGradient id="lineGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#DCCAC0" stop-opacity="0.2" />
+                                <stop offset="50%" stop-color="#FAF8F5" stop-opacity="1" />
+                                <stop offset="100%" stop-color="#DCCAC0" stop-opacity="0.2" />
+                            </linearGradient>
+                            <filter id="glowEffect" x="-20%" y="-20%" width="140%" height="140%">
+                                <feGaussianBlur stdDeviation="4" result="blur" />
+                                <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                            </filter>
+                        </defs>
+                        <!-- Dynamic path will be injected here via JS -->
+                        <g id="dynamicPathContainer"></g>
+                    </svg>
+
+                    <!-- Left: Fetus Hologram -->
+                    <div class="w-full md:w-1/2 h-1/2 md:h-full relative flex items-center justify-center opacity-0 transform -translate-x-12 transition-all duration-1000" id="fetusModel">
+                        <span class="absolute top-0 md:top-10 left-10 text-[10px] tracking-widest uppercase text-aurora-400/50 font-bold">Origem / Corpo</span>
+                        
+                        <!-- Stylized Holographic Fetus (Abstracted line art) -->
+                        <svg viewBox="0 0 400 600" class="w-full h-full max-h-[400px] md:max-h-[550px] animate-float drop-shadow-2xl opacity-80">
+                            <!-- Base Fetus Shape (Inverted) -->
+                            <path d="M220,100 C280,120 320,180 300,280 C280,380 220,420 180,480 C140,540 80,520 80,460 C80,400 120,380 140,320 C160,260 140,220 120,200 C100,180 80,140 120,100 C160,60 180,80 220,100 Z" fill="none" stroke="rgba(220, 202, 192, 0.15)" stroke-width="2" stroke-dasharray="4 4" />
+                            <!-- Inner contours -->
+                            <path d="M250,150 C290,200 270,300 220,380 C180,440 120,480 110,440 C100,400 150,350 170,280 C190,210 160,150 140,130" fill="none" stroke="rgba(44, 74, 68, 0.4)" stroke-width="1" />
+                            
+                            <!-- Interactive Nodes (Fetus) -->
+                            <g class="fetus-nodes">
+                                <circle id="fetus-limbs" cx="220" cy="120" r="6" fill="#DCCAC0" class="transition-all duration-300" filter="url(#glowEffect)" />
+                                <circle id="fetus-pelvis" cx="280" cy="220" r="6" fill="#DCCAC0" class="transition-all duration-300" filter="url(#glowEffect)" />
+                                <circle id="fetus-abdomen" cx="240" cy="280" r="6" fill="#DCCAC0" class="transition-all duration-300" filter="url(#glowEffect)" />
+                                <circle id="fetus-thorax" cx="200" cy="350" r="6" fill="#DCCAC0" class="transition-all duration-300" filter="url(#glowEffect)" />
+                                <circle id="fetus-spine" cx="290" cy="320" r="6" fill="#DCCAC0" class="transition-all duration-300" filter="url(#glowEffect)" />
+                                <circle id="fetus-head" cx="130" cy="480" r="8" fill="#DCCAC0" class="transition-all duration-300" filter="url(#glowEffect)" />
+                                <circle id="fetus-nervous" cx="180" cy="420" r="6" fill="#DCCAC0" class="transition-all duration-300" filter="url(#glowEffect)" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <!-- Right: Ear Hologram (Interactive) -->
+                    <div class="w-full md:w-1/2 h-1/2 md:h-full relative flex items-center justify-center opacity-0 transform translate-x-12 transition-all duration-1000 delay-300" id="earModel">
+                        <span class="absolute top-0 md:top-10 right-10 text-[10px] tracking-widest uppercase text-aurora-400/50 font-bold">Mapa Auricular</span>
+
+                        <!-- Stylized Holographic Ear -->
+                        <svg viewBox="0 0 400 600" class="w-full h-full max-h-[400px] md:max-h-[550px] drop-shadow-2xl">
+                            <!-- Base Ear Shape -->
+                            <path d="M150,100 C250,80 320,150 320,250 C320,350 280,450 220,520 C180,560 120,540 120,480 C120,450 140,430 140,400 C140,350 100,300 100,200 C100,150 120,110 150,100 Z" fill="rgba(220, 202, 192, 0.02)" stroke="rgba(220, 202, 192, 0.3)" stroke-width="2" />
+                            <path d="M180,140 C240,150 280,220 270,320 C260,400 220,460 180,480" fill="none" stroke="rgba(220, 202, 192, 0.1)" stroke-width="1" />
+                            
+                            <!-- Interactive Hotspots (Ear) -->
+                            <g class="ear-nodes cursor-pointer">
+                                <!-- Limbs -->
+                                <g onmouseenter="activateAuriNode('limbs')" onmouseleave="deactivateAuriNode()" class="group">
+                                    <circle id="ear-limbs" cx="220" cy="130" r="15" fill="transparent" />
+                                    <circle cx="220" cy="130" r="5" fill="#F2F0ED" class="group-hover:scale-150 transition-transform duration-300" filter="url(#glowEffect)" />
+                                    <text x="240" y="135" fill="#DCCAC0" font-size="12" class="group-hover:opacity-100 tracking-widest uppercase transition-opacity">Membros Infs.</text>
+                                </g>
+                                <!-- Pelvis -->
+                                <g onmouseenter="activateAuriNode('pelvis')" onmouseleave="deactivateAuriNode()" class="group">
+                                    <circle id="ear-pelvis" cx="250" cy="200" r="15" fill="transparent" />
+                                    <circle cx="250" cy="200" r="5" fill="#F2F0ED" class="group-hover:scale-150 transition-transform duration-300" filter="url(#glowEffect)" />
+                                    <text x="270" y="205" fill="#DCCAC0" font-size="12" class="group-hover:opacity-100 tracking-widest uppercase transition-opacity">Pelve</text>
+                                </g>
+                                <!-- Abdomen -->
+                                <g onmouseenter="activateAuriNode('abdomen')" onmouseleave="deactivateAuriNode()" class="group">
+                                    <circle id="ear-abdomen" cx="220" cy="270" r="15" fill="transparent" />
+                                    <circle cx="220" cy="270" r="5" fill="#F2F0ED" class="group-hover:scale-150 transition-transform duration-300" filter="url(#glowEffect)" />
+                                    <text x="240" y="275" fill="#DCCAC0" font-size="12" class="group-hover:opacity-100 tracking-widest uppercase transition-opacity">Abdômen</text>
+                                </g>
+                                <!-- Spine -->
+                                <g onmouseenter="activateAuriNode('spine')" onmouseleave="deactivateAuriNode()" class="group">
+                                    <circle id="ear-spine" cx="170" cy="300" r="15" fill="transparent" />
+                                    <circle cx="170" cy="300" r="5" fill="#F2F0ED" class="group-hover:scale-150 transition-transform duration-300" filter="url(#glowEffect)" />
+                                    <text x="100" y="305" fill="#DCCAC0" font-size="12" class="group-hover:opacity-100 tracking-widest uppercase transition-opacity">Coluna</text>
+                                </g>
+                                <!-- Thorax -->
+                                <g onmouseenter="activateAuriNode('thorax')" onmouseleave="deactivateAuriNode()" class="group">
+                                    <circle id="ear-thorax" cx="240" cy="350" r="15" fill="transparent" />
+                                    <circle cx="240" cy="350" r="5" fill="#F2F0ED" class="group-hover:scale-150 transition-transform duration-300" filter="url(#glowEffect)" />
+                                    <text x="260" y="355" fill="#DCCAC0" font-size="12" class="group-hover:opacity-100 tracking-widest uppercase transition-opacity">Tórax</text>
+                                </g>
+                                <!-- Nervous System -->
+                                <g onmouseenter="activateAuriNode('nervous')" onmouseleave="deactivateAuriNode()" class="group">
+                                    <circle id="ear-nervous" cx="140" cy="380" r="15" fill="transparent" />
+                                    <circle cx="140" cy="380" r="5" fill="#F2F0ED" class="group-hover:scale-150 transition-transform duration-300" filter="url(#glowEffect)" />
+                                    <text x="30" y="385" fill="#DCCAC0" font-size="12" class="group-hover:opacity-100 tracking-widest uppercase transition-opacity">S. Nervoso</text>
+                                </g>
+                                <!-- Head -->
+                                <g onmouseenter="activateAuriNode('head')" onmouseleave="deactivateAuriNode()" class="group">
+                                    <circle id="ear-head" cx="180" cy="500" r="20" fill="transparent" />
+                                    <circle cx="180" cy="500" r="6" fill="#F2F0ED" class="group-hover:scale-150 transition-transform duration-300" filter="url(#glowEffect)" />
+                                    <text x="210" y="505" fill="#DCCAC0" font-size="14" font-weight="bold" class="group-hover:opacity-100 tracking-widest uppercase transition-opacity">Cabeça</text>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <!-- Informational Glass Panel (Shows on Hover) -->
+                    <div id="auriInfoPanel" class="absolute bottom-4 md:bottom-10 left-1/2 transform -translate-x-1/2 w-[90%] md:w-[400px] glass-panel-dark rounded-2xl p-6 opacity-0 pointer-events-none transition-all duration-500 z-30 translate-y-4 shadow-2xl border border-aurora-300/20">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="w-8 h-8 rounded-full bg-aurora-400/20 flex items-center justify-center text-aurora-200">
+                                <i data-lucide="activity" class="w-4 h-4"></i>
+                            </div>
+                            <h4 id="auriPanelTitle" class="serif-font text-2xl text-white font-light">Região</h4>
+                        </div>
+                        <p id="auriPanelDesc" class="text-sm text-aurora-100/80 font-light leading-relaxed mb-4">
+                            Descrição terapêutica do ponto.
+                        </p>
+                        <div class="border-t border-aurora-300/20 pt-4">
+                            <span class="text-[9px] uppercase tracking-widest text-aurora-400 font-bold mb-2 block">Benefícios Primários</span>
+                            <div id="auriPanelTags" class="flex flex-wrap gap-2">
+                                <!-- Tags injected via JS -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Educational Footer CTA -->
+                <div class="mt-16 text-center max-w-2xl opacity-0 transform translate-y-8 transition-all duration-1000 delay-500" id="auriFooter">
+                    <p class="text-[#E7CDBF] font-light mb-6 text-sm md:text-base">
+                        A <strong class="font-medium text-black">Auriculoterapia</strong> reconhece a orelha como um microssistema onde todo o corpo é representado de forma invertida. Estimular esses pontos envia sinais ao cérebro para restaurar o equilíbrio da região correspondente.
+                    </p>
+                    <button onclick="selectTherapy('Terapia Multidimensional')" class="px-8 py-3.5 bg-aurora-400 hover:bg-aurora-500 text-emeraldlux-950 rounded-xl font-bold text-xs tracking-widest uppercase transition-all shadow-lg hover:shadow-xl hover:-translate-y-1">
+                        Experimentar Equilíbrio
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- INTERACTIVE EXPERIENCE: DAILY ORACLE -->
+        <!--<section id="oraculo" class="py-24 px-6 md:px-12 bg-emeraldlux-900 text-white relative overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <div class="absolute top-[10%] right-[10%] w-[30rem] h-[30rem] rounded-full bg-emeraldlux-600/30 filter blur-3xl"></div>
+                <div class="absolute -bottom-[20%] left-[-10%] w-[40rem] h-[40rem] rounded-full bg-aurora-500/10 filter blur-3xl animate-float"></div>
+            </div>
+
+            <div class="max-w-4xl mx-auto text-center relative z-10 flex flex-col items-center gap-6">
+                <span class="text-xs font-bold tracking-widest text-aurora-300 uppercase">Sua mensagem sutil para hoje</span>
+                <h2 class="serif-font text-3xl md:text-5xl font-light text-aurora-100">O Oráculo da Intuição</h2>
+                <p class="text-aurora-200 font-light max-w-xl text-sm md:text-base mb-8">
+                    Silencie a sua mente por um segundo, concentre-se na sua respiração e retire uma carta energética canalizada por Alessandra.
+                </p>
+
+                <!-- Cards Deck container
+                <div class="relative w-full max-w-sm h-80 flex items-center justify-center my-6">
+                    <!-- Oracle Card Active Face 
+                    <div id="oracleCard" onclick="revealOracle()" class="absolute w-52 h-76 bg-emeraldlux-950/80 rounded-2xl border-2 border-aurora-400/40 cursor-pointer transition-all duration-700 transform hover:scale-105 shadow-2xl flex flex-col items-center justify-center p-6 text-center group">
+                        <!-- Card Back pattern 
+                        <div id="cardBack" class="absolute inset-0 bg-gradient-to-br from-emeraldlux-800 to-emeraldlux-950 rounded-2xl flex flex-col items-center justify-center p-4 transition-all duration-500">
+                            <div class="w-16 h-16 rounded-full border border-aurora-400/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                                <svg class="w-8 h-8 text-aurora-300 animate-pulse" viewBox="0 0 100 100" fill="none" stroke="currentColor">
+                                    <circle cx="50" cy="50" r="20" stroke-width="2"/>
+                                    <path d="M50 10 L50 90 M10 50 L90 50" stroke-width="1"/>
+                                </svg>
+                            </div>
+                            <span class="serif-font text-lg text-aurora-200 tracking-wide">Tocar para revelar</span>
+                            <span class="text-[9px] text-aurora-400 tracking-widest uppercase mt-2">Sintonize com seu coração</span>
+                        </div>
+
+                         Card Front Content (Hidden Initially) 
+                        <div id="cardFront" class="opacity-0 flex flex-col items-center justify-between h-full py-4">
+                            <div class="p-2 bg-emeraldlux-900/50 rounded-full text-aurora-300">
+                                <i data-lucide="sparkles" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 id="cardTitle" class="serif-font text-xl text-aurora-100 font-medium mb-2">Renascimento</h3>
+                                <p id="cardDesc" class="text-xs text-aurora-300 leading-relaxed font-light">
+                                    "Permita que o passado flua para fora do seu campo energético. Você está prestes a manifestar um novo ciclo de luz."
+                                </p>
+                            </div>
+                            <span class="text-[9px] tracking-widest text-aurora-400 uppercase">Mensagem de Alessandra</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex gap-4">
+                    <button id="resetOracleBtn" onclick="resetOracle()" class="hidden px-6 py-2.5 rounded-xl border border-aurora-300/40 text-aurora-200 text-xs tracking-widest uppercase hover:bg-white/5 transition-all">
+                        Tirar outra carta
+                    </button>
+                    <a href="#agendamento" class="px-6 py-2.5 rounded-xl bg-aurora-400 hover:bg-aurora-500 text-emeraldlux-900 font-bold text-xs tracking-widest uppercase transition-all shadow-md">
+                        Aprofundar no Alinhamento
+                    </a>
+                </div>
+            </div>
+        </section>
+
+         THE PATIENT'S JOURNEY -->
+        <section id="jornada" class="py-24 px-6 md:px-12 bg-[#FAF8F5]">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center max-w-2xl mx-auto mb-20 flex flex-col gap-4">
+                    <span class="text-xs font-bold tracking-widest text-aurora-600 uppercase">Seu Caminho Rumo ao Sucesso</span>
+                    <h2 class="serif-font text-3xl md:text-5xl font-light text-emeraldlux-500">A Jornada do Autoconhecimento</h2>
+                    <p class="text-slate-500 font-light text-sm md:text-base">
+                        Como funciona o processo de transformação terapêutica, desenhado para seu máximo acolhimento e resultados reais.
+                    </p>
+                </div>
+
+                <!-- Timeline -->
+                <div class="relative border-l border-aurora-300/60 ml-4 md:ml-32 space-y-12 pb-8">
+                    <!-- Step 1 -->
+                    <div class="relative pl-8 md:pl-12">
+                        <!-- Bullet -->
+                        <div class="absolute -left-[17px] top-1 w-8 h-8 rounded-full bg-aurora-100 border border-aurora-400 flex items-center justify-center text-xs font-semibold text-emeraldlux-700">01</div>
+                        <!-- Content -->
+                        <div class="glass-panel rounded-2xl p-6 md:p-8 hover:shadow-lg transition-all duration-300">
+                            <span class="text-[10px] tracking-widest text-aurora-500 font-bold uppercase">Primeiro Toque</span>
+                            <h3 class="serif-font text-xl md:text-2xl font-light text-emeraldlux-900 mt-1 mb-2">Entrevista Inicial</h3>
+                            <p class="text-sm text-slate-600 font-light leading-relaxed">
+                                Antes de iniciar a terapia é necessário realizar uma entrevista detalhada para entender suas <strong>dores, bloqueios e objetivos</strong>. Este é o momento de criar um plano de tratamento personalizado que respeite seu ritmo e necessidades. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="relative pl-8 md:pl-12">
+                        <!-- Bullet -->
+                        <div class="absolute -left-[17px] top-1 w-8 h-8 rounded-full bg-aurora-100 border border-aurora-400 flex items-center justify-center text-xs font-semibold text-emeraldlux-700">02</div>
+                        <!-- Content -->
+                        <div class="glass-panel rounded-2xl p-6 md:p-8 hover:shadow-lg transition-all duration-300">
+                            <span class="text-[10px] tracking-widest text-aurora-500 font-bold uppercase">Imersão nas dores</span>
+                            <h3 class="serif-font text-xl md:text-2xl font-light text-emeraldlux-900 mt-1 mb-2">Sessão e Atendimento Terapêutico</h3>
+                            <p class="text-sm text-slate-600 font-light leading-relaxed">
+                                No presencial ou virtual, o cliente realiza a imersão ao passado para identificar <strong>padrões e bloqueios</strong> que impactam sua vida presente através de técnicas terapêuticas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="relative pl-8 md:pl-12">
+                        <!-- Bullet -->
+                        <div class="absolute -left-[17px] top-1 w-8 h-8 rounded-full bg-aurora-100 border border-aurora-400 flex items-center justify-center text-xs font-semibold text-emeraldlux-700">03</div>
+                        <!-- Content -->
+                        <div class="glass-panel rounded-2xl p-6 md:p-8 hover:shadow-lg transition-all duration-300">
+                            <span class="text-[10px] tracking-widest text-aurora-500 font-bold uppercase">Nova Fase</span>
+                            <h3 class="serif-font text-xl md:text-2xl font-light text-emeraldlux-900 mt-1 mb-2">Tudo organizado</h3>
+                            <p class="text-sm text-slate-600 font-light leading-relaxed">
+                                O cliente volta ao passado mas com propósito de mudar aquela história e se autoconhecer, se <strong>libertando</strong> assim de julgamentos e dores que o impedem de avançar. O processo é delicado, mas extremamente libertador.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="relative pl-8 md:pl-12">
+                        <!-- Bullet -->
+                        <div class="absolute -left-[17px] top-1 w-8 h-8 rounded-full bg-aurora-100 border border-aurora-400 flex items-center justify-center text-xs font-semibold text-emeraldlux-700">04</div>
+                        <!-- Content -->
+                        <div class="glass-panel rounded-2xl p-6 md:p-8 hover:shadow-lg transition-all duration-300">
+                            <span class="text-[10px] tracking-widest text-aurora-500 font-bold uppercase">Autoconhecimento</span>
+                            <h3 class="serif-font text-xl md:text-2xl font-light text-emeraldlux-900 mt-1 mb-2">Rumo ao sucesso</h3>
+                            <p class="text-sm text-slate-600 font-light leading-relaxed">
+                                Você no final da terapia recebe um relatório detalhado de tudo que foi trabalhado, com orientações para manter o equilíbrio e continuar evoluindo mesmo após o término do processo terapêutico. 
+                                <br>
+                                <strong>Observação:</strong> No final do processo terapêutico a doutora dará alta para o paciente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- THE SANCTUARY GALLERY (Masonry with Premium Lightbox) -->
+        <section id="espaco" class="py-24 px-6 md:px-12 bg-white">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center max-w-2xl mx-auto mb-16 flex flex-col gap-3">
+                    <span class="text-xs font-bold tracking-widest text-emeraldlux-500 uppercase">Feedbacks construtivos</span>
+                    <h2 class="serif-font text-3xl md:text-5xl font-light text-emeraldlux-600">Explore os feedbacks</h2>
+                    <p class="text-slate-500 font-light text-sm md:text-base">
+                        Imagens de processos profissionais.
+                    </p>
+                </div>
+
+                <!-- Masonry Layout for Premium Ambience Visualization -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    
+                    <!-- Box 1 -->
+                    <div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer aspect-[4/3] bg-aurora-200 flex items-center justify-center" onclick="openLightbox(1)">
+                        <!-- Simulated Beautiful Spa Room with SVGs / Gradients representing luxury design -->
+                        <div class="absolute inset-0 bg-gradient-to-tr from-emeraldlux-950 via-emeraldlux-900 to-aurora-400 opacity-90 transition-transform duration-700 group-hover:scale-105"></div>
+                        <img src="src/img/Clientes/Cliente Furo de orelha 2.jpg" alt="Luxurious Spa Room" class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                        <div class="absolute inset-0 flex flex-col justify-end p-6 z-10">
+                            <span class="text-[10px] tracking-widest uppercase font-bold text-aurora-300">Furo de orelha huamanizado</span>
+                            <h4 class="serif-font text-lg text-white font-light">Resultado</h4>
+                        </div>
+                        <i data-lucide="maximize-2" class="absolute top-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity w-5 h-5"></i>
+                    </div>
+
+                    <!-- Box 2 -->
+                    <div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer aspect-square bg-aurora-300 flex items-center justify-center" onclick="openLightbox(2)">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-emeraldlux-900 via-emeraldlux-800 to-emeraldlux-500 opacity-90 transition-transform duration-700 group-hover:scale-105"></div>
+                        <img src="src/img/Clientes/Cliente Furo de orelha.jpg" alt="Reception Area" class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                        <div class="absolute inset-0 flex flex-col justify-end p-6 z-10">
+                            <span class="text-[10px] tracking-widest uppercase font-bold text-aurora-300">Furo de orelha humanizado</span>
+                            <h4 class="serif-font text-lg text-white font-light">Resultado</h4>
+                        </div>
+                        <i data-lucide="maximize-2" class="absolute top-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity w-5 h-5"></i>
+                    </div>
+
+                    <!-- Box 3 -->
+                    <div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer aspect-[3/4] bg-aurora-100 flex items-center justify-center md:row-span-2" onclick="openLightbox(3)">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-emeraldlux-950 via-emeraldlux-900 to-aurora-500 opacity-95 transition-transform duration-700 group-hover:scale-105"></div>
+                        <img src="src/img/Clientes/Aurículo C.B.R.jpg" alt="Therapy Room" class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                        <div class="absolute inset-0 flex flex-col justify-end p-6 z-10">
+                            <span class="text-[10px] tracking-widest uppercase font-bold text-aurora-300">Auriculoterapia</span>
+                            <h4 class="serif-font text-lg text-white font-light">Sementes de mostarda aplicadas no ouvido</h4>
+                        </div>
+                        <i data-lucide="maximize-2" class="absolute top-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity w-5 h-5"></i>
+                    </div>
+
+                    <!-- Box 4 -->
+                    <div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer aspect-square bg-aurora-200 flex items-center justify-center" onclick="openLightbox(4)">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-emeraldlux-800 via-emeraldlux-600 to-aurora-300 opacity-90 transition-transform duration-700 group-hover:scale-105"></div>
+                        <img src="src/img/Clientes/Furo de orelha 2.jpg" alt="Sound Therapy Instruments" class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                        <div class="absolute inset-0 flex flex-col justify-end p-6 z-10">
+                            <span class="text-[10px] tracking-widest uppercase font-bold text-aurora-300">Furo de orelha humanizado</span>
+                            <h4 class="serif-font text-lg text-white font-light">Processo cuidadoso do furo de orelha</h4>
+                        </div>
+                        <i data-lucide="maximize-2" class="absolute top-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity w-5 h-5"></i>
+                    </div>
+
+                    <!-- Box 5 -->
+                    <div class="relative group overflow-hidden rounded-2xl shadow-md cursor-pointer aspect-[4/3] bg-aurora-300 flex items-center justify-center" onclick="openLightbox(5)">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-emeraldlux-900 via-emeraldlux-700 to-aurora-400 opacity-90 transition-transform duration-700 group-hover:scale-105"></div>
+                        <img src="src/img/Clientes/3 Furo humanizado k.S.jpg" alt="Private Therapy Room" class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                        <div class="absolute inset-0 flex flex-col justify-end p-6 z-10">
+                            <span class="text-[10px] tracking-widest uppercase font-bold text-aurora-300">Furo de orelha humanizado</span>
+                            <h4 class="serif-font text-lg text-white font-light">Resultado</h4>
+                        </div>
+                        <i data-lucide="maximize-2" class="absolute top-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity w-5 h-5"></i>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- LIGHTBOX PORTAL -->
+        <div id="lightbox" class="hidden fixed inset-0 z-50 bg-[#0E1715]/95 flex flex-col items-center justify-center p-6 transition-all duration-300">
+            <!-- Close Button -->
+            <button onclick="closeLightbox()" class="absolute top-6 right-6 p-2 text-white hover:text-aurora-300 bg-white/5 rounded-full transition-all">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+            <div class="max-w-4xl w-full h-auto max-h-[70vh] rounded-2xl overflow-hidden shadow-2xl relative flex items-center justify-center bg-gradient-to-tr from-emeraldlux-900 to-aurora-400 p-8 text-center text-white">
+                <div class="flex flex-col gap-4 max-w-lg">
+                    <span id="lightboxCategory" class="text-xs uppercase tracking-widest font-bold text-aurora-300">Ambiente</span>
+                    <h3 id="lightboxTitle" class="serif-font text-3xl font-light">Visualização de Ambiência</h3>
+                    <p id="lightboxDesc" class="text-sm font-light text-aurora-100 leading-relaxed">
+                        Um ambiente que sintoniza com sua paz primordial. Projetado sob os preceitos do Feng Shui e harmonização por frequências cristalinas de som.
+                    </p>
+                    <div class="inline-flex justify-center mt-6">
+                        <span class="w-2.5 h-2.5 rounded-full bg-aurora-400 animate-ping"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TESTIMONIALS SECTION -->
+        <section class="py-24 px-6 md:px-12 bg-[#F3EFE9]">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center max-w-xl mx-auto mb-16 flex flex-col gap-3">
+                    <span class="text-xs font-bold tracking-widest text-aurora-600 uppercase">Testemunhos</span>
+                    <h2 class="serif-font text-3xl md:text-5xl font-light text-emeraldlux-500">Palavras que Acolhem</h2>
+                </div>
+
+                <!-- Testimonials Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <!-- Card 1 -->
+                    <div class="bg-white rounded-2xl p-8 border border-aurora-200 shadow-sm flex flex-col justify-between h-80">
+                        <div>
+                            <div class="flex gap-1 text-aurora-500 mb-6">
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            </div>
+                            <p class="text-sm text-slate-600 font-light italic leading-relaxed">
+                                "Durante muito tempo vivi a base de julgamentos e crenças sobre minha pessoa e minha vida. A terapia me ajudou a me concentrar nas minhas ações e me libertar da dores e problemas de outras pessoas."
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-4 border-t border-aurora-200/50 pt-4 mt-6">
+                            <div class="w-10 h-10 rounded-full bg-emeraldlux-500 flex items-center justify-center text-white text-xs font-bold">MF</div>
+                            <div>
+                                <h4 class="text-xs font-bold text-emeraldlux-900">Renan M.</h4>
+                                <p class="text-[10px] text-slate-400">CEO da ScriptHadder</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white rounded-2xl p-8 border border-aurora-200 shadow-sm flex flex-col justify-between h-80">
+                        <div>
+                            <div class="flex gap-1 text-aurora-500 mb-6">
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            </div>
+                            <p class="text-sm text-slate-600 font-light italic leading-relaxed">
+                                "Profissional nota 10. Muito atenciosa e cuidadosa. Fiz tratamento para ansiedade e com poucas sessões já senti melhora."
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-4 border-t border-aurora-200/50 pt-4 mt-6">
+                            <div class="w-10 h-10 rounded-full bg-emeraldlux-600 flex items-center justify-center text-white text-xs font-bold">RC</div>
+                            <div>
+                                <h4 class="text-xs font-bold text-emeraldlux-900">M. M.</h4>
+                                <p class="text-[10px] text-slate-400">Auriculoerapia</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white rounded-2xl p-8 border border-aurora-200 shadow-sm flex flex-col justify-between h-80">
+                        <div>
+                            <div class="flex gap-1 text-aurora-500 mb-6">
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            </div>
+                            <p class="text-sm text-slate-600 font-light italic leading-relaxed">
+                                "Super recomendo! Profissional competente e transmite segurança. Podem agendar sem medo!"
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-4 border-t border-aurora-200/50 pt-4 mt-6">
+                            <div class="w-10 h-10 rounded-full bg-aurora-400 flex items-center justify-center text-emeraldlux-900 text-xs font-bold">AS</div>
+                            <div>
+                                <h4 class="text-xs font-bold text-emeraldlux-900">C. S.</h4>
+                                <p class="text-[10px] text-slate-400">Furo de orelha</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- BOOKING / CONTACT PORTAL -->
+        <section id="agendamento" class="py-24 px-6 md:px-12 bg-white relative">
+            <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+                
+                <!-- Left Details -->
+                <div class="lg:col-span-5 flex flex-col gap-6">
+                    <span class="text-xs font-bold tracking-widest text-emeraldlux-500 uppercase">Sua transformação ativa</span>
+                    <h2 class="serif-font text-3xl md:text-5xl font-light text-emeraldlux-600 leading-tight">
+                        Agende sua sessão de autoconhecimento e equilíbrio
+                    </h2>
+                    <p class="text-slate-500 font-light leading-relaxed">
+                        Escolha o primeiro passo ideal para sua cura integral. Seus dados estão completamente seguros.
+                    </p>
+
+                    <!-- Contact shortcuts -->
+                    <div class="space-y-4 mt-6">
+                        <div class="flex items-start gap-4">
+                            <div class="p-3 bg-emeraldlux-100/60 text-emeraldlux-600 rounded-xl">
+                                <i data-lucide="message-square" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-emeraldlux-900">Atendimento Imediato</h4>
+                                <p class="text-xs text-slate-500 mt-1">Clique para iniciar um contato rápido pelo WhatsApp.</p>
+                                <a href="https://wa.me/+5511968292521?text=Olá,%20Alessandra!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" class="text-xs font-bold text-emeraldlux-500 hover:underline mt-2 inline-block">Conversar pelo WhatsApp →</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="p-3 bg-emeraldlux-100/60 text-emeraldlux-600 rounded-xl">
+                                <i data-lucide="mail" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-emeraldlux-900">E-mail Profissional</h4>
+                                <p class="text-xs text-slate-500 mt-1">Envie dúvidas para o e-mail de agendamento corporativo.</p>
+                                <span class="text-xs font-medium text-emeraldlux-700">alessandramestre@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="p-3 bg-emeraldlux-100/60 text-emeraldlux-600 rounded-xl">
+                                <i data-lucide="map-pin" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-emeraldlux-900">Atendimento Presencial</h4>
+                                <p class="text-xs text-slate-500 mt-1">Apenas na região de Ribeirão Preto, SP</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="p-3 bg-emeraldlux-100/60 text-emeraldlux-600 rounded-xl">
+                                <i data-lucide="globe" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-emeraldlux-900">Atendimento Online</h4>
+                                <p class="text-xs text-slate-500 mt-1">Disponível para qualquer região</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Form (Active State Handling) -->
+                <div class="lg:col-span-7 bg-[#F3EFE9] rounded-3xl p-8 md:p-10 border border-aurora-200 relative">
+                    <!-- Notification Box -->
+                    <div id="formFeedback" class="hidden mb-6 p-4 rounded-xl text-xs font-semibold uppercase tracking-wider text-center transition-all duration-300"></div>
+
+                    <form id="appointmentForm" onsubmit="handleFormSubmit(event)" class="space-y-6">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div class="flex flex-col gap-1.5">
+                                <label for="name" class="text-xs font-bold tracking-wider text-emeraldlux-900 uppercase">Seu Nome Completo</label>
+                                <input type="text" id="name" required class="w-full px-4 py-3 rounded-xl border border-aurora-300 bg-white/70 focus:bg-white focus:outline-none focus:border-emeraldlux-500 transition-all text-sm text-slate-800" placeholder="ex: Ana Silva">
+                            </div>
+
+                            <div class="flex flex-col gap-1.5">
+                                <label for="phone" class="text-xs font-bold tracking-wider text-emeraldlux-900 uppercase">WhatsApp para contato</label>
+                                <input type="tel" id="phone" required class="w-full px-4 py-3 rounded-xl border border-aurora-300 bg-white/70 focus:bg-white focus:outline-none focus:border-emeraldlux-500 transition-all text-sm text-slate-800" placeholder="ex: (11) 99999-9999">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div class="flex flex-col gap-1.5">
+                                <label for="therapy" class="text-xs font-bold tracking-wider text-emeraldlux-900 uppercase">Serviço Desejado</label>
+                                <select id="therapy" required class="w-full px-4 py-3 rounded-xl border border-aurora-300 bg-white/70 focus:bg-white focus:outline-none focus:border-emeraldlux-500 transition-all text-sm text-slate-800">
+                                    <option value="" disabled selected>Selecione o Serviço</option>
+                                    <option value="Terapia de Reprocessamento">Terapia de Reprocessamento</option>
+                                    <option value="Auriculoterapia">Auriculoterapia</option>
+                                    <option value="Furo de Orelha Humanizado">Furo de Orelha Humanizado</option>
+                                    <option value="Consultoria">Consultoria / </option>
+                                </select>
+                            </div>
+
+                            <div class="flex flex-col gap-1.5">
+                                <label for="modality" class="text-xs font-bold tracking-wider text-emeraldlux-900 uppercase">Modalidade</label>
+                                <select id="modality" required class="w-full px-4 py-3 rounded-xl border border-aurora-300 bg-white/70 focus:bg-white focus:outline-none focus:border-emeraldlux-500 transition-all text-sm text-slate-800">
+                                    <option value="" disabled selected>Escolha</option>
+                                    <option value="Online">Online (Videochamada)</option>
+                                    <option value="Presencial">Presencial (Região de Ribeirão Preto)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div class="flex flex-col gap-1.5">
+                                <label for="pref_date" class="text-xs font-bold tracking-wider text-emeraldlux-900 uppercase">Data de Preferência</label>
+                                <input type="date" id="pref_date" required class="w-full px-4 py-3 rounded-xl border border-aurora-300 bg-white/70 focus:bg-white focus:outline-none focus:border-emeraldlux-500 transition-all text-sm text-slate-800">
+                            </div>
+
+                            <div class="flex flex-col gap-1.5">
+                                <label for="pref_period" class="text-xs font-bold tracking-wider text-emeraldlux-900 uppercase">Período de Preferência</label>
+                                <select id="pref_period" required class="w-full px-4 py-3 rounded-xl border border-aurora-300 bg-white/70 focus:bg-white focus:outline-none focus:border-emeraldlux-500 transition-all text-sm text-slate-800">
+                                    <option value="" disabled selected>Selecione</option>
+                                    <option value="Manhã">Manhã (08h às 12h)</option>
+                                    <option value="Tarde">Tarde (13h às 18h)</option>
+                                    <option value="Noite">Noite (18h às 21h)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col gap-1.5">
+                            <label for="intent" class="text-xs font-bold tracking-wider text-emeraldlux-900 uppercase">Observações adicionais (Opcional)</label>
+                            <textarea id="intent" rows="3" class="w-full px-4 py-3 rounded-xl border border-aurora-300 bg-white/70 focus:bg-white focus:outline-none focus:border-emeraldlux-500 transition-all text-sm text-slate-800 resize-none" placeholder="Observações importantes para a profissional."></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full py-4 rounded-xl bg-emeraldlux-500 hover:bg-emeraldlux-600 text-white font-bold text-sm tracking-widest uppercase transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-0.5 flex items-center justify-center gap-2">
+                            <i data-lucide="send" class="w-4 h-4"></i>
+                            <span>Solicitar Serviço</span>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FREQUENTLY ASKED QUESTIONS -->
+        <section class="py-24 px-6 md:px-12 bg-[#FAF8F5]">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center max-w-xl mx-auto mb-16 flex flex-col gap-3">
+                    <span class="text-xs font-bold tracking-widest text-emeraldlux-500 uppercase">Perguntas Comuns</span>
+                    <h2 class="serif-font text-3xl md:text-5xl font-light text-emeraldlux-600">Esclarecimentos sutis</h2>
+                </div>
+
+                <div class="space-y-4">
+                    <!-- Q1 -->
+                    <div class="glass-panel rounded-2xl border border-aurora-200 transition-all">
+                        <button onclick="toggleFaq(1)" class="w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none">
+                            <span class="font-semibold text-emeraldlux-900 text-sm md:text-base">Devo ficar falando tudo para a terapeuta?</span>
+                            <i data-lucide="plus" class="w-5 h-5 text-emeraldlux-500 transition-transform duration-300" id="faqIcon-1"></i>
+                        </button>
+                        <div id="faqContent-1" class="hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed font-light">
+                            Não! Na terapia não é necessário ficar falando sobre as lembranças ou o que sente. <strong>A terapeuta irá conduzir o processo de forma intuitiva e sutil</strong>, apenas pedindo para que se concentre nas sensações e emoções que surgirem durante a sessão. O processo é mais mental do que verbal, então basta se entregar e confiar na condução da profissional.
+                    </div>
+
+                    <!-- Q2 -->
+                    <div class="glass-panel rounded-2xl border border-aurora-200 transition-all">
+                        <button onclick="toggleFaq(2)" class="w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none">
+                            <span class="font-semibold text-emeraldlux-900 text-sm md:text-base">As sessões online possuem a mesma eficácia das presenciais?</span>
+                            <i data-lucide="plus" class="w-5 h-5 text-emeraldlux-500 transition-transform duration-300" id="faqIcon-2"></i>
+                        </button>
+                        <div id="faqContent-2" class="hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed font-light">
+                            Completamente. A terapia de <strong>reprocessamento</strong> é um processo mental e energético, então a distância física não interfere na eficácia do tratamento. A conexão e entrega do paciente são os fatores mais importantes para o sucesso da terapia, e isso pode ser alcançado tanto presencialmente quanto online. A profissional tem experiência em conduzir sessões remotas de forma eficaz, garantindo que o processo seja tão profundo e transformador quanto as sessões presenciais.
+                        </div>
+                    </div>
+
+                    <!-- Q3 -->
+                    <div class="glass-panel rounded-2xl border border-aurora-200 transition-all">
+                        <button onclick="toggleFaq(3)" class="w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none">
+                            <span class="font-semibold text-emeraldlux-900 text-sm md:text-base">Posso cancelar o pagamento e a terapia se eu quiser?</span>
+                            <i data-lucide="plus" class="w-5 h-5 text-emeraldlux-500 transition-transform duration-300" id="faqIcon-3"></i>
+                        </button>
+                        <div id="faqContent-3" class="hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed font-light">
+                            <strong>Sim, isso é de total liberdade do cliente.</strong>
+                        </div>
+                    </div>
+
+                    <!-- Q4 -->
+                    <div class="glass-panel rounded-2xl border border-aurora-200 transition-all">
+                        <button onclick="toggleFaq(4)" class="w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none">
+                            <span class="font-semibold text-emeraldlux-900 text-sm md:text-base">Terapia é o mesmo que psicologia? Qual a diferença?</span>
+                            <i data-lucide="plus" class="w-5 h-5 text-emeraldlux-500 transition-transform duration-300" id="faqIcon-4"></i>
+                        </button>
+                        <div id="faqContent-4" class="hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed font-light">
+                            <strong>A terapia holística foca na integração mente-corpo-espírito, utilizando abordagens energéticas e intuitivas para promover bem-estar e autoconhecimento.</strong> A psicologia tradicional, por outro lado, baseia-se em métodos científicos e clínicos para tratar questões emocionais e comportamentais. Ambas podem ser complementares, dependendo das necessidades do indivíduo.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-emeraldlux-950 text-white py-16 px-6 md:px-12 border-t border-white/5 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-tr from-[#0E1715] to-[#233B36] z-0"></div>
+        <div class="max-w-6xl mx-auto relative z-10 grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+            
+            <!-- Logo & Brand description -->
+            <div class="md:col-span-4 flex flex-col gap-4">
+                <a href="#home" class="flex flex-col">
+                    <span class="serif-font text-2xl font-light tracking-widest text-aurora-200 uppercase">Alessandra</span>
+                    <span class="text-[9px] tracking-widest uppercase text-aurora-400 font-medium">Saúde e Bem Estar</span>
+                </a>
+                <p class="text-xs text-aurora-300 font-light leading-relaxed mt-2">
+                    Seu processo para reencontrar sua essência começa aqui!
+                </p>
+                  <div class="flex gap-4 mt-2">
+                    <a href="https://www.instagram.com/alessandramestre_terapeuta/"
+                      class="p-2 bg-white/5 hover:bg-white/10 rounded-lg text-aurora-200 transition-all">
+
+                        <i class="fa-brands fa-instagram w-4 h-4"></i>
+                    </a>
+                  </div>
+            </div>
+
+            <!-- Links list -->
+            <div class="md:col-span-3 flex flex-col gap-3">
+                <h4 class="text-xs font-bold uppercase tracking-wider text-aurora-400">Navegação</h4>
+                <a href="#sobre" class="text-xs text-aurora-200 hover:text-white transition-colors">Quem é Alessandra</a>
+                <a href="#servicos" class="text-xs text-aurora-200 hover:text-white transition-colors">Serviços</a>
+                <a href="#jornada" class="text-xs text-aurora-200 hover:text-white transition-colors">Reprocessamento</a>
+                <a href="#espaco" class="text-xs text-aurora-200 hover:text-white transition-colors">Feedbacks</a>
+                <a href="#psicologia&trg" class="text-xs text-aurora-200 hover:text-white transition-colors">Psicologia & Terapia</a>
+            </div>
+
+            <!-- Operating Hours -->
+            <div class="md:col-span-5 flex flex-col gap-4">
+                <h4 class="text-xs font-bold uppercase tracking-wider text-aurora-400">Atendimento ao Paciente</h4>
+                <p class="text-xs text-aurora-200 font-light">
+                    Segunda a Sexta-feira: 09:00 às 20:00 <br>
+                </p>
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10 flex items-center gap-3">
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                    <span class="text-xs font-semibold text-aurora-100">Atendimentos Virtuais & Presenciais Disponíveis</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-6xl mx-auto border-t border-white/5 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-aurora-400 relative z-10 font-light">
+            <span>© 2026 Desenvolvido pela <strong><a href="https://scripthadder.com.br">ScriptHadder — Tecnologia para uma nova era</a></strong>. Todos os direitos reservados.</span>
+            <div class="flex gap-4 mt-4 sm:mt-0">
+                <a href="#" class="hover:text-white transition-colors">Políticas de Privacidade</a>
+                <a href="#" class="hover:text-white transition-colors">Termos de Atendimento Ético</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App Scripts (State & Dynamic Interaction Handler) -->
+   <!-- App Scripts (State & Dynamic Interaction Handler) -->
+    <script>
+        // Start Lucide Icons
+        lucide.createIcons();
+
+        // Screen Loader Handler
+        window.addEventListener('load', () => {
+            const loader = document.getElementById('loader');
+            setTimeout(() => {
+                loader.classList.add('opacity-0');
+                loader.classList.add('pointer-events-none');
+            }, 1000);
+        });
+
+        // Header Style change on Scroll
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('mainHeader');
+            const headerInner = document.getElementById('headerInner');
+            if (window.scrollY > 50) {
+                header.classList.remove('py-5');
+                header.classList.add('py-2');
+                headerInner.classList.add('shadow-md');
+                headerInner.classList.remove('shadow-sm');
+                headerInner.classList.add('bg-white/85');
+            } else {
+                header.classList.add('py-5');
+                header.classList.remove('py-2');
+                headerInner.classList.remove('shadow-md');
+                headerInner.classList.add('shadow-sm');
+                headerInner.classList.remove('bg-white/85');
+            }
+        });
+
+        // Mobile Menu Toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            const isHidden = mobileMenu.classList.contains('hidden');
+            
+            if (isHidden) {
+                mobileMenu.classList.remove('hidden');
+                menuIcon.setAttribute('data-lucide', 'x');
+            } else {
+                mobileMenu.classList.add('hidden');
+                menuIcon.setAttribute('data-lucide', 'menu');
+            }
+            lucide.createIcons();
+        }
+
+        // Active Therapy Selection Event (fills booking selection automatically)
+        function selectTherapy(therapyName) {
+            const therapySelect = document.getElementById('therapy');
+            therapySelect.value = therapyName;
+            
+            // Auto scroll smoothly to booking section
+            document.getElementById('agendamento').scrollIntoView({ behavior: 'smooth' });
+            
+            // Visual highlight of form
+            const formContainer = therapySelect.closest('div').parentElement.parentElement;
+            formContainer.classList.add('ring-2', 'ring-emeraldlux-500/50');
+            setTimeout(() => {
+                formContainer.classList.remove('ring-2', 'ring-emeraldlux-500/50');
+            }, 1200);
+        }
+
+        // Filter Therapies
+        function filterTherapies(category) {
+            const cards = document.querySelectorAll('.therapy-card');
+            const buttons = document.querySelectorAll('.therapy-filter-btn');
+
+            // Reset active button styling
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-emeraldlux-500', 'text-white', 'shadow-sm');
+                btn.classList.add('bg-aurora-50', 'text-emeraldlux-700');
+            });
+
+            // Set current active button
+            const activeBtn = document.getElementById(`btn-${category}`);
+            if (activeBtn) {
+                activeBtn.classList.remove('bg-aurora-50', 'text-emeraldlux-700');
+                activeBtn.classList.add('bg-emeraldlux-500', 'text-white', 'shadow-sm');
+            }
+
+            // Show / Hide cards with nice transition
+            cards.forEach(card => {
+                const cardCat = card.getAttribute('data-category');
+                if (category === 'all' || cardCat === category) {
+                    card.style.display = 'flex';
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, 50);
+                } else {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(10px)';
+                    setTimeout(() => {
+                        card.style.display = 'none';
+                    }, 300);
+                }
+            });
+        }
+
+        // Oracle Card Logic
+        const oracleMessages = [
+            { title: "Renascimento", desc: "Permita que o passado flua para fora do seu campo energético. Você está prestes a manifestar um novo ciclo de luz sutil." },
+            { title: "Expansão Sutil", desc: "Confie na sua intuição acima de toda a lógica externa. Seus canais de sabedoria cósmica estão amplamente desimpedidos hoje." },
+            { title: "Proteção Divina", desc: "Seu campo está perfeitamente selado com luz violeta. Siga sem hesitação, pois suas dores ancestrais estão sendo purificadas." },
+            { title: "Fluidez Emocional", desc: "Como a água que contorna os obstáculos, adapte-se com carinho e suavidade à mudança de planos do seu momento." },
+            { title: "Sincronia Cósmica", desc: "Observe atentamente os sinais ocultos da natureza ao seu redor. Encontros casuais e números idênticos trarão direcionamentos precisos." }
+        ];
+
+        let oracleUsed = false;
+
+        function revealOracle() {
+            if (oracleUsed) return;
+            oracleUsed = true;
+
+            const card = document.getElementById('oracleCard');
+            const cardBack = document.getElementById('cardBack');
+            const cardFront = document.getElementById('cardFront');
+            const cardTitle = document.getElementById('cardTitle');
+            const cardDesc = document.getElementById('cardDesc');
+            const resetBtn = document.getElementById('resetOracleBtn');
+
+            // Select random message
+            const randomMsg = oracleMessages[Math.floor(Math.random() * oracleMessages.length)];
+            cardTitle.innerText = randomMsg.title;
+            cardDesc.innerText = `"${randomMsg.desc}"`;
+
+            // Card Rotation Transition Effect
+            card.style.transform = 'rotateY(180deg) scale(1.05)';
+            setTimeout(() => {
+                cardBack.style.opacity = '0';
+                cardFront.style.opacity = '1';
+                cardFront.style.transform = 'rotateY(180deg)'; // keep text readable
+            }, 250);
+
+            // Display refresh option smoothly
+            setTimeout(() => {
+                resetBtn.classList.remove('hidden');
+            }, 600);
+        }
+
+        function resetOracle() {
+            oracleUsed = false;
+            const card = document.getElementById('oracleCard');
+            const cardBack = document.getElementById('cardBack');
+            const cardFront = document.getElementById('cardFront');
+            const resetBtn = document.getElementById('resetOracleBtn');
+
+            card.style.transform = 'rotateY(0deg) scale(1)';
+            setTimeout(() => {
+                cardBack.style.opacity = '1';
+                cardFront.style.opacity = '0';
+                cardFront.style.transform = 'rotateY(0deg)';
+                resetBtn.classList.add('hidden');
+            }, 250);
+        }
+
+        // Premium Lightbox Portal Logic
+        const galleryDetails = {
+            1: { cat: "Sala de Integração", title: "Espaço de Cura Multidimensional", desc: "Equipado com acústica sutil, iluminação indireta customizada e aromaterapia com óleos essenciais orgânicos de altíssimo padrão." },
+            2: { cat: "Acolhimento Premium", title: "Recepção de Chá e Conexão", desc: "Espaço de pouso confortável, com degustação de blends especiais preparados sob medida para acalmar o sistema simpático do paciente." },
+            3: { cat: "Elementos Sagrados", title: "Aromas, Cristais e Ativação", desc: "Seleção rigorosa de cristais calibrados e instrumentos terapêuticos de cura prânica de altíssima pureza." },
+            4: { cat: "O Altar de Alinhamento", title: "Instrumentos Sonoros", desc: "Tigelas de cristal de quartzo afinadas em frequência de cura planetária e harmonização de chakras." },
+            5: { cat: "Privacidade Total", title: "Consultório de Alta Harmonia", desc: "Isolamento acústico projetado especificamente para que as sessões e consultas de Constelação Sistêmica sejam totalmente protegidas e discretas." }
+        };
+
+        function openLightbox(index) {
+            const lightbox = document.getElementById('lightbox');
+            const cat = document.getElementById('lightboxCategory');
+            const title = document.getElementById('lightboxTitle');
+            const desc = document.getElementById('lightboxDesc');
+
+            const item = galleryDetails[index];
+            if (item) {
+                cat.innerText = item.cat;
+                title.innerText = item.title;
+                desc.innerText = item.desc;
+                
+                lightbox.classList.remove('hidden');
+                lightbox.classList.add('flex');
+            }
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.add('hidden');
+            lightbox.classList.remove('flex');
+        }
+
+        // Active Booking Form Submission Handler
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            
+            const formFeedback = document.getElementById('formFeedback');
+            const form = document.getElementById('appointmentForm');
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const therapy = document.getElementById('therapy').value;
+            const date = document.getElementById('pref_date').value;
+
+            // Simple user friendly success simulation block with custom notification
+            formFeedback.classList.remove('hidden', 'bg-red-100', 'text-red-800', 'bg-emerald-100', 'text-emerald-800');
+            formFeedback.classList.add('bg-emerald-100', 'text-emerald-800', 'block');
+            formFeedback.innerHTML = `🌟 Solicitação enviada! Alessandra reservará a data (${date}) para ${name}. Redirecionando para o WhatsApp de confirmação...`;
+
+            // Resetting inputs smoothly
+            form.reset();
+
+            // Redirecting dynamically to WhatsApp with pre-filled message after brief delay
+            setTimeout(() => {
+                const formattedMessage = encodeURIComponent(`Olá Alessandra! Sou ${name}. Acabei de preencher a solicitação de data para ${therapy} no dia ${date}. Aguardo a confirmação da minha sessão de luz!`);
+                window.open(`https://wa.me/5511999999999?text=${formattedMessage}`, '_blank');
+                formFeedback.classList.add('hidden');
+            }, 2500);
+        }
+
+        // FAQ Collapse Handler
+        function toggleFaq(id) {
+            const faqContent = document.getElementById(`faqContent-${id}`);
+            const faqIcon = document.getElementById(`faqIcon-${id}`);
+            const isHidden = faqContent.classList.contains('hidden');
+
+            // Close all FAQ first for single-accordion premium UX
+            document.querySelectorAll('[id^="faqContent-"]').forEach(content => {
+                content.classList.add('hidden');
+            });
+            document.querySelectorAll('[id^="faqIcon-"]').forEach(icon => {
+                icon.setAttribute('data-lucide', 'plus');
+                icon.classList.remove('rotate-45');
+            });
+
+            // Open selected
+            if (isHidden) {
+                faqContent.classList.remove('hidden');
+                faqIcon.setAttribute('data-lucide', 'minus');
+                faqIcon.classList.add('rotate-45');
+            } else {
+                faqContent.classList.add('hidden');
+                faqIcon.setAttribute('data-lucide', 'plus');
+                faqIcon.classList.remove('rotate-45');
+            }
+            lucide.createIcons();
+        }
+
+        // AURICULOTHERAPY INTERACTIVE LOGIC
+        const auriData = {
+            head: { title: "Cabeça & Mente", desc: "Associada a dores de cabeça crônicas, enxaqueca, tensão facial, bruxismo, insônia e clareza mental profunda.", tags: ["Alívio de Tensão", "Foco", "Sono Profundo"] },
+            spine: { title: "Coluna Vertebral", desc: "Mapeia toda a extensão da coluna (cervical, torácica, lombar). Alivia dores nas costas, ciático e corrige posturas energéticas.", tags: ["Alívio de Dores", "Alinhamento", "Flexibilidade"] },
+            thorax: { title: "Tórax & Coração", desc: "Ligado ao sistema respiratório e cardíaco. Trata angústia, ansiedade aguda, asma e palpitações, liberando o fluxo do chakra cardíaco.", tags: ["Respiração Plena", "Paz Interior", "Liberação Emocional"] },
+            abdomen: { title: "Abdômen & Digestão", desc: "Conectado aos órgãos de processamento (estômago, fígado, intestinos). Trata má digestão emocional, gastrite nervosa e metabolismo.", tags: ["Desintoxicação", "Leveza", "Fluxo Vital"] },
+            pelvis: { title: "Pelve & Raiz", desc: "Relacionado aos órgãos reprodutores e base estrutural. Focado em cólicas, vitalidade primária, aterrissamento e questões ginecológicas.", tags: ["Vitalidade", "Aterramento", "Cura Feminina"] },
+            limbs: { title: "Membros Inferiores", desc: "Representa pernas e pés. Vital para quem sofre de cansaço extremo, inchaço, dores articulares e dificuldade em 'avançar' na vida.", tags: ["Impulso", "Circulação", "Força Física"] },
+            nervous: { title: "Sistema Nervoso", desc: "O ponto central para regulação de estresse. Desativa o modo 'luta ou fuga', induzindo relaxamento profundo e harmonia sistêmica.", tags: ["Calma Imediata", "Regulação", "Anti-Estresse"] }
+        };
+
+        let currentActiveNode = null;
+
+        function activateAuriNode(regionId) {
+            if (currentActiveNode === regionId) return;
+            currentActiveNode = regionId;
+
+            const panel = document.getElementById('auriInfoPanel');
+            const data = auriData[regionId];
+            
+            // Highlight Fetus Node
+            document.querySelectorAll('.fetus-nodes circle').forEach(c => {
+                c.setAttribute('fill', '#DCCAC0');
+                c.setAttribute('r', c.id === 'fetus-head' ? '8' : '6');
+                c.classList.remove('animate-pulse');
+            });
+            const targetFetus = document.getElementById(`fetus-${regionId}`);
+            if (targetFetus) {
+                targetFetus.setAttribute('fill', '#ffffff');
+                targetFetus.setAttribute('r', '10');
+                targetFetus.classList.add('animate-pulse');
+            }
+
+            // Draw connecting line dynamically
+            drawLineBetweenNodes(`fetus-${regionId}`, `ear-${regionId}`);
+
+            // Update & Show Panel
+            document.getElementById('auriPanelTitle').innerText = data.title;
+            document.getElementById('auriPanelDesc').innerText = data.desc;
+            
+            const tagsHtml = data.tags.map(tag => `<span class="px-2.5 py-1 rounded-md bg-white/10 text-white border border-white/20 text-[10px] tracking-wider uppercase">${tag}</span>`).join('');
+            document.getElementById('auriPanelTags').innerHTML = tagsHtml;
+
+            panel.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-4');
+            panel.classList.add('opacity-100', 'translate-y-0');
+        }
+
+        function deactivateAuriNode() {
+            currentActiveNode = null;
+            const panel = document.getElementById('auriInfoPanel');
+            panel.classList.add('opacity-0', 'pointer-events-none', 'translate-y-4');
+            panel.classList.remove('opacity-100', 'translate-y-0');
+
+            // Reset Fetus Nodes
+            document.querySelectorAll('.fetus-nodes circle').forEach(c => {
+                c.setAttribute('fill', '#DCCAC0');
+                c.setAttribute('r', c.id === 'fetus-head' ? '8' : '6');
+                c.classList.remove('animate-pulse');
+            });
+
+            // Clear Line
+            document.getElementById('dynamicPathContainer').innerHTML = '';
+        }
+
+        function drawLineBetweenNodes(fetusId, earId) {
+            const svgOverlay = document.getElementById('connectionLinesOverlay');
+            const pathContainer = document.getElementById('dynamicPathContainer');
+            const node1 = document.getElementById(fetusId);
+            const node2 = document.getElementById(earId);
+
+            if (!node1 || !node2 || !svgOverlay) return;
+
+            // Get bounding rectangles
+            const svgRect = svgOverlay.getBoundingClientRect();
+            const rect1 = node1.getBoundingClientRect();
+            const rect2 = node2.getBoundingClientRect();
+
+            // Calculate center coordinates relative to the SVG container
+            const x1 = rect1.left + (rect1.width / 2) - svgRect.left;
+            const y1 = rect1.top + (rect1.height / 2) - svgRect.top;
+            const x2 = rect2.left + (rect2.width / 2) - svgRect.left;
+            const y2 = rect2.top + (rect2.height / 2) - svgRect.top;
+
+            // Generate an elegant curved path (Bezier)
+            const cx = (x1 + x2) / 2;
+            const cy = Math.min(y1, y2) - 100; // Curve upwards slightly
+
+            const pathHtml = `
+                <path d="M ${x1} ${y1} Q ${cx} ${cy} ${x2} ${y2}" 
+                      fill="none" 
+                      stroke="url(#lineGlow)" 
+                      stroke-width="2" 
+                      class="animate-[dash_2s_linear_forwards]"
+                      stroke-dasharray="1000"
+                      stroke-dashoffset="1000" />
+                <circle cx="${x1}" cy="${y1}" r="12" fill="none" stroke="#FAF8F5" stroke-width="1" class="animate-ping" opacity="0.5"/>
+                <circle cx="${x2}" cy="${y2}" r="12" fill="none" stroke="#FAF8F5" stroke-width="1" class="animate-ping" opacity="0.5"/>
+            `;
+            
+            // Add custom animation for drawing line
+            if (!document.getElementById('auriDashAnim')) {
+                const style = document.createElement('style');
+                style.id = 'auriDashAnim';
+                style.innerHTML = `@keyframes dash { to { stroke-dashoffset: 0; } }`;
+                document.head.appendChild(style);
+            }
+
+            pathContainer.innerHTML = pathHtml;
+        }
+
+        // Scroll Storytelling Observer for Auriculotherapy Section
+        const auriObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Trigger sequential fade-ins
+                    setTimeout(() => document.getElementById('auriHeader').classList.remove('opacity-0', 'translate-y-8'), 100);
+                    setTimeout(() => document.getElementById('fetusModel').classList.remove('opacity-0', '-translate-x-12'), 500);
+                    setTimeout(() => document.getElementById('earModel').classList.remove('opacity-0', 'translate-x-12'), 1200);
+                    setTimeout(() => document.getElementById('auriFooter').classList.remove('opacity-0', 'translate-y-8'), 2000);
+                    
+                    // Auto-demo the first interaction after load
+                    setTimeout(() => {
+                        if (!currentActiveNode) {
+                            activateAuriNode('head');
+                            setTimeout(() => {
+                                if (currentActiveNode === 'head') deactivateAuriNode();
+                            }, 2500);
+                        }
+                    }, 2500);
+
+                    auriObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const auriSection = document.getElementById('auriculoterapia');
+            if(auriSection) auriObserver.observe(auriSection);
+        });
+
+        // Ambient Audio Sound Simulation Toggle
+        let audioPlaying = false;
+        function toggleAmbientMusic() {
+            const audio = document.getElementById('ambientAudio');
+            const btn = document.getElementById('musicToggleBtn');
+            
+            if (!audioPlaying) {
+                audio.play().then(() => {
+                    audioPlaying = true;
+                    btn.classList.add('animate-pulse');
+                    btn.innerHTML = `<i data-lucide="volume-2" class="w-5 h-5"></i><span class="absolute right-14 bg-emeraldlux-700 text-xs text-aurora-100 px-3 py-1.5 rounded-lg opacity-100 transition-opacity whitespace-nowrap shadow">Som Ativo</span>`;
+                }).catch(e => {
+                    // Safe fallbacks for user interaction policies
+                    console.log("Audio play blocked by browser. Click to interact.");
+                });
+            } else {
+                audio.pause();
+                audioPlaying = false;
+                btn.classList.remove('animate-pulse');
+                btn.innerHTML = `<i data-lucide="music" class="w-5 h-5"></i><span class="absolute right-14 bg-emeraldlux-700 text-xs text-aurora-100 px-3 py-1.5 rounded-lg opacity-100 transition-opacity whitespace-nowrap shadow">Som Pausado</span>`;
+            }
+            lucide.createIcons();
+        }
+    </script>
+</body>
+</html>
 </body>
 </html>

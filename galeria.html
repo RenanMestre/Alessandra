@@ -9,24 +9,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
     <link rel="stylesheet" href="src/css/galeria.css">
-    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <div class="logo">
-                <h2>Logo</h2>
-            </div>
-            <nav class="nav">
-                <button class="nav-toggle" aria-label="Menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul class="nav-menu">
-                    <li><a href="index.html">Início</a></li>
-                </ul>
-            </nav>
+        <div class="logo">
+            <img src="src/img/Logo/Logo.png" alt="Logo">
+        </div>
+        <nav class="nav">
+            <button class="nav-toggle" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            </button>
+            <ul class="nav-menu">
+            <li><a href="index.html">Início</a></li>
+            </ul>
+        </nav>
         </div>
     </header>
 
@@ -37,32 +36,41 @@
                 <p>Conheça nosso trabalho através das imagens dos nossos serviços</p>
             </div>
 
-            <div class="galeria-filtros">
+            <div class="galeria-filtros" id="filtro">
                 <button class="filtro-btn active" data-filter="todos">Todos</button>
                 <button class="filtro-btn" data-filter="furo">Furo de orelha</button>
-                <button class="filtro-btn" data-filter="trg">TRG</button>
+                <!--<button class="filtro-btn" data-filter="trg">TRG</button>-->
                 <button class="filtro-btn" data-filter="auriculo">Auriculoterapia</button>
+                <button class="filtro-btn" data-filter="video">Vídeos</button>
             </div>
 
             <div class="galeria-grid">
                 <div class="galeria-item" data-categoria="furo">
-                    <img src="img/pexels-cheasomben-1266105.jpg" alt="Furo de orelha humanizado">
+                    <img src="src/img/Clientes/3 Furo humanizado k.S.jpg" alt="Furo de orelha humanizado">
                     <div class="item-overlay">
                         <h3>Furo de orelha</h3>
                         <p>Técnica humanizada e segura</p>
                     </div>
                 </div>
                 
-                <div class="galeria-item" data-categoria="trg">
-                    <img src="img/pexels-cheasomben-1266105.jpg" alt="TRG - Terapia">
+                <!--<div class="galeria-item" data-categoria="trg">
+                    <img src="src/" alt="TRG - Terapia">
                     <div class="item-overlay">
                         <h3>TRG</h3>
                         <p>Terapia de reprocessamento</p>
                     </div>
+                </div>-->
+                
+                <div class="galeria-item" data-categoria="auriculo">
+                    <img src="src/img/Clientes/Aurículo C.B.R.jpg" alt="Auriculoterapia">
+                    <div class="item-overlay">
+                        <h3>Auriculoterapia</h3>
+                        <p>Equilibrio e bem-estar</p>
+                    </div>
                 </div>
                 
                 <div class="galeria-item" data-categoria="auriculo">
-                    <img src="img/pexels-cheasomben-1266105.jpg" alt="Auriculoterapia">
+                    <img src="src/img/Clientes/Auriculo S. M. G.jpg" alt="Auriculoterapia">
                     <div class="item-overlay">
                         <h3>Auriculoterapia</h3>
                         <p>Equilibrio e bem-estar</p>
@@ -70,26 +78,187 @@
                 </div>
                 
                 <div class="galeria-item" data-categoria="furo">
-                    <img src="img/pexels-cheasomben-1266105.jpg" alt="Furo de orelha">
+                    <img src="src/img/Clientes/Furos assimétricos.jpg" alt="Furo de orelha">
                     <div class="item-overlay">
-                        <h3>Resultado</h3>
-                        <p>Processo finalizado</p>
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
                     </div>
                 </div>
-                
-                <div class="galeria-item" data-categoria="trg">
-                    <img src="img/pexels-cheasomben-1266105.jpg" alt="Sessão TRG">
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/LAIS 2.jpg" alt="Furo de orelha">
                     <div class="item-overlay">
-                        <h3>Sessão TRG</h3>
-                        <p>Ambiente acolhedor</p>
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
                     </div>
                 </div>
-                
-                <div class="galeria-item" data-categoria="auriculo">
-                    <img src="img/pexels-cheasomben-1266105.jpg" alt="Auriculoterapia aplicação">
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/LAIS 3.jpg" alt="Furo de orelha">
                     <div class="item-overlay">
-                        <h3>Aplicação</h3>
-                        <p>Técnica precisa</p>
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/LAIS 4.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/LAIS 5.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/THAISE CARNEIRO 1.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/THAISE 2.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/THAISE 3.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/THAISE 4.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/THAISE 5.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/CIDA 1.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/CIDA 2.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/CIDA 3.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/CIDA 4.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/CIDA 5.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/CLAUDIA RODRIGUES 2 e 3 FURO.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/ALLANA 2.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="furo">
+                    <img src="src/img/Clientes/ALLANA 3.jpg" alt="Furo de orelha">
+                    <div class="item-overlay">
+                        <h3>Furo de orelha</h3>
+                        <p>Técnica humanizada e segura</p>
+                    </div>
+                </div>
+
+                <!-- Vídeos: só aparecem quando filtro "Vídeos" está ativo -->
+                <div class="galeria-item galeria-video" data-categoria="video" style="display: none;">
+                    <div class="video-wrapper">
+                        <video src="src/videos/Auriculoterapia banner.mp4" controls poster="src/img/Clientes/Auriculo S. M. G.jpg"></video>
+                        <div class="item-overlay">
+                            <h3>Auriculoterapia</h3>
+                            <p>Banner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="galeria-item galeria-video" data-categoria="video" style="display: none;">
+                    <div class="video-wrapper">
+                        <video src="src/videos/ALLANA CARNEIRO.mp4" controls poster="src/img/Clientes/ALLANA 3.jpg"></video>
+                        <div class="item-overlay">
+                            <h3>Furo de Orelha</h3>
+                            <p>Aplicando a técnica</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="galeria-item galeria-video" data-categoria="video" style="display: none;">
+                    <div class="video-wrapper">
+                        <video src="src/videos/GRAZIELA.mp4" controls poster="src/img/Clientes/GRAZIELA 1.jpg"></video>
+                        <div class="item-overlay">
+                            <h3>Furo de Orelha</h3>
+                            <p>Aplicando a técnica</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="galeria-item galeria-video" data-categoria="video" style="display: none;">
+                    <div class="video-wrapper">
+                        <video src="src/videos/LAIS CARVALHO vídeo.mp4" controls poster="src/img/Clientes/LAIS 5.jpg"></video>
+                        <div class="item-overlay">
+                            <h3>Furo de Orelha</h3>
+                            <p>Cuidados</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -98,69 +267,68 @@
 
     <footer class="footer">
         <div class="container">
-        <div class="footer-content">
-            <div class="footer-brand">
-            <h3>Logo</h3>
-            <p>Cuidando do seu bem-estar com amor e dedicação</p>
-            </div>
-            
-            <div class="footer-links">
-                <div class="footer-col">
-                    <h4>Navegação</h4>
-                    <ul>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="src/img/Logo/Logo.png" alt="Logo_foote">
+                    <p>Cuidando do seu bem-estar com amor e dedicação</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Navegação</h4>
+                        <ul>
                         <li><a href="index.html">Sobre</a></li>
                         <li><a href="index.html">Serviços</a></li>
                         <li><a href="index.html">Avaliações</a></li>
                         <li><a href="index.html">Contato</a></li>
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
                 
-                <div class="footer-col">
-                    <h4>Serviços</h4>
-                    <ul>
-                    <li><a href="#">Furo de orelha</a></li>
-                    <li><a href="#">TRG</a></li>
-                    <li><a href="#">Auriculoterapia</a></li>
-                    <li><a href="galeria.html">Galeria</a></li>
-                    </ul>
+                    <div class="footer-col">
+                        <h4>Serviços</h4>
+                        <ul>
+                        <li><a href="#">Furo de orelha</a></li>
+                        <li><a href="#">TRG</a></li>
+                        <li><a href="#">Auriculoterapia</a></li>
+                        <li><a href="#">Galeria</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        
-        <div class="footer-bottom">
-            <a href="https://scripthadder.com.br"><p>&copy; 2025 Desenvolvido pela ScriptHadder. Todos os direitos reservados.</p></a>
-        </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alessandra Mestre. Todos os direitos reservados.</p>
+            </div>
         </div>
     </footer>
+
     <script src="src/js/script.js"></script>
     <script>
-        const filterBtns = document.querySelectorAll('.filtro-btn');
-        const galeriaItems = document.querySelectorAll('.galeria-item');
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.querySelector('.nav-menu');
 
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
+    navToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      navToggle.classList.toggle('active');
+    });
 
-                const filter = btn.getAttribute('data-filter');
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        navToggle.classList.remove('active');
+      });
+    });
 
-                galeriaItems.forEach(item => {
-                    if (filter === 'todos' || item.getAttribute('data-categoria') === filter) {
-                        item.style.display = 'block';
-                        setTimeout(() => {
-                            item.style.opacity = '1';
-                            item.style.transform = 'scale(1)';
-                        }, 50);
-                    } else {
-                        item.style.opacity = '0';
-                        item.style.transform = 'scale(0.8)';
-                        setTimeout(() => {
-                            item.style.display = 'none';
-                        }, 300);
-                    }
-                });
-            });
-        });
+    document.querySelectorAll('.estrelas').forEach(container => {
+      const rating = parseInt(container.getAttribute('data-rating'), 10) || 0;
+      container.innerHTML = '';
+      
+      for(let i = 1; i <= 5; i++) {
+        const star = document.createElement('span');
+        star.textContent = '★';
+        star.className = i <= rating ? 'star filled' : 'star';
+        container.appendChild(star);
+      }
+    });
     </script>
 </body>
 </html>
